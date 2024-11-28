@@ -88,6 +88,6 @@ author2:
   about:             |
     방문을 환영합니다!
 
-  picture:           /assets/img/intro/Hello.jpg
+  picture:           https://github.com/seony-dev/assets/img/intro/Hello.jpg
   twitter:           <username>
   github:            https://github.com/seony-dev
