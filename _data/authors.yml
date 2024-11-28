@@ -21,8 +21,8 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter:         <username>
-    github:          <seony-dev>
+    #twitter:         <username>
+    github:          seony-dev
     # email:           <seony.dev@gmail.com>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
