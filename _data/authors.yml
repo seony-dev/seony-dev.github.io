@@ -5,7 +5,7 @@ author1:
   name:              Park Seoeun
   email:             seony.dev@gmail.com
   about:             |
-    Java, PHP Web Developer.
+    Web Developer.
     <br> Studying : Game Development
     <br><br> You Can Send me Email <seony.dev@gmail.com>
     
@@ -82,8 +82,7 @@ author2:
   name:              Park Seoeun
   email:             seony.dev@gmail.com
   about:             
-    방문을 환영합니다!
-
-  picture:           /assets/img/intro/welcome_img.jpg
+    Web Developer.
+  picture:           /assets/img/intro/profile_img_bg.png
   twitter:           <username>
   github:            https://github.com/seony-dev
