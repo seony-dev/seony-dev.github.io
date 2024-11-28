@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /assets/img/intro/Hello.jpg
+image: /assets/img/intro/welcome_img.jpg
 description: >
   서니의 개발 블로그 방문 환영글
 hide_description: true
