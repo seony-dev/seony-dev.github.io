@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome Seony Dev Blog!💐"
-date:   2024-11-28 17:31:48 +0900
-categories: About
+title:  Welcome Seony Dev Blog!💐
+description: >
+  방문을 환영합니다 !
+hide_last_modified: true
 ---
 
 ![](/assets/img/intro/Hello.jpg)
