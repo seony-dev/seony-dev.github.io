@@ -28,8 +28,8 @@ author1:
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
     twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    github:          <seony-dev>
+    # email:           <seony.dev@gmail.com>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -83,15 +83,11 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Park Seoeun
+  email:             seony.dev@gmail.com
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    방문을 환영합니다!
 
-    Open `_data/authors.yml` to edit this text.
-
-  picture:           https://placehold.it/128x128
+  picture:           /assets/img/intro/Hello.jpg
   twitter:           <username>
-  github:            <username>
+  github:            https://github.com/seony-dev
