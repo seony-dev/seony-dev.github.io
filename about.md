@@ -1,10 +1,6 @@
 ---
 layout: about
 image: /assets/img/intro/Hello.jpg
-description: >
-
-redirect_from:
-  - /download/
 ---
 # Welcome Seony Dev Blog!💐
 
