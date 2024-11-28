@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Posts
+title: Developments
 description: >
   about developments
 grouped: true
