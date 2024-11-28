@@ -42,8 +42,8 @@ logo:                  /assets/img/blog_main_logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <PARK> <SEOEUN>
-  email:               <seony.dev@gmail.com>
+  name:                Park Seoeun
+  email:               seony.dev@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 

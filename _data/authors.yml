@@ -2,10 +2,10 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <PARK> <SEOEUN>
-  email:             <seony.dev@gmail.com>
+  name:              Park Seoeun
+  email:             seony.dev@gmail.com
   about:             |
-    "Java, PHP Web Developer."
+    "Java, PHP Web Developer.""
     "Studying : Game Development"
     "You Can Send me Email <seony.dev@gmail.com>"
     
@@ -79,12 +79,10 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <PARK> <SEOEUN>
-  email:             <seony.dev@gmail.com>
+  name:              Park Seoeun
+  email:             seony.dev@gmail.com
   about:             
-    "Java, PHP Web Developer."
-    "Studying : Game Development"
-    "You Can Send me Email <seony.dev@gmail.com>"
+    방문을 환영합니다!
 
   picture:           https://github.com/seony-dev/assets/img/intro/Hello.jpg
   twitter:           <username>
