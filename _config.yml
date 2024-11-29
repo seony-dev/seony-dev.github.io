@@ -51,6 +51,11 @@ author:
 menu:
   - title:             Developments
     url:               /developments/
+    submenu:
+        - title:         Game Developments
+          url:           /game-developments/
+        - title:         Study
+          url:           /study/
   - title:             About
     url:               /about/
 
