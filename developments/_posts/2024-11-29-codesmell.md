@@ -3,6 +3,7 @@ layout: post
 title:  "[Software Engineering] 02. 코드 스멜(code smell)"
 description: >
 hide_last_modified: true
+sitemap: false
 ---
 
 ### 🖥️ 코드 스멜(code smell)이란?
