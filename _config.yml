@@ -54,6 +54,11 @@ menu:
     submenu:
         - title:         Game Developments
           url:           /game-developments/
+          - title:       CS
+            url:         /cs/
+            - title:     Software Engineering
+            url:         /software-engineering/
+            
         - title:         Study
           url:           /study/
   - title:             About
