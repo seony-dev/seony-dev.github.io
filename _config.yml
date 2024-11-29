@@ -53,7 +53,7 @@ menu:
     url:               /developments/
     submenu:
         - title:         Game Developments
-          url:           /game_developments/
+          url:           /game-developments/
         - title:         Study
           url:           /study/
   - title:             About
