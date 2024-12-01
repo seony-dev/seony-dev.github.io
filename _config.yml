@@ -48,18 +48,7 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
-menu:
-  - title:             Game Developments
-    url:               /game-developments/
-    submenu:
-        - title:         Game Developments
-          url:           /game-developments/
-    submenu:
-        - title:       Unreal
-          url:         /unreal/
-        - title:       Unity
-          url:         /unity/
-            
+menu:            
   - title:             Study
     url:              /study/
     submenu:
@@ -67,7 +56,17 @@ menu:
           url:         /cs/
         - title:       Software Engineering
           url:         /software-engineering/
+        - title:       OS
+          url:         /os/
   
+  - title:             Game Developments
+    url:               /game-developments/
+    submenu:
+        - title:       Unreal
+          url:         /unreal/
+        - title:       Unity
+          url:         /unity/
+
   - title:             About
     url:               /about/
 
