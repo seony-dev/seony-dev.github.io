@@ -56,17 +56,18 @@ menu:
           url:           /game-developments/
     submenu:
         - title:       Unreal
-          url:         /ureal/
+          url:         /urealstus/
         - title:       Unity
           url:         /unity/
             
-  - title:         Study
-      url:           /study/
-      submenu:
+  - title:             Study
+    url:              /study/
+    submenu:
         - title:       CS
           url:         /cs/
-        - title:     Software Engineering
+        - title:       Software Engineering
           url:         /software-engineering/
+  
   - title:             About
     url:               /about/
 
