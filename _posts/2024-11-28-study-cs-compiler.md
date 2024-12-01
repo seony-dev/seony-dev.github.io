@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[CS] 01. 컴파일러(compiler)"
+title:  "[CS] 컴파일러(compiler)"
 description: > 
 hide_last_modified: true
 categories: 
