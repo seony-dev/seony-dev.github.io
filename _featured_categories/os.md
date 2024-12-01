@@ -4,8 +4,9 @@ type: category
 title: OS
 slug: os
 sidebar: true
-order: 2
+order: 3
 description: >
   about Studying OS 
-grouped: true
+#grouped: true
+sitemap: false
 ---

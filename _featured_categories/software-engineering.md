@@ -4,8 +4,9 @@ type: category
 title: Software Engineering
 slug: software-engineering
 sidebar: true
-order: 2
+order: 3
 description: >
   about Studying Software Engineering
-grouped: true
+#grouped: true
+sitemap: false
 ---
