@@ -6,6 +6,8 @@ hide_last_modified: true
 categories: [study, software-engineering]
 ---
 
+![](../../../assets/img/blog/software_engineering/codesmell/codesmell.jpg)
+
 ### 🖥️ 코드 스멜(code smell)이란?
 > 직역하자면 코드의 냄새, 즉 '악취가 나는 코드'이며 컴퓨터 프로그래밍 코드에서 개발자가 이해하거나 유지보수하기 어려운 코드이다.
 
@@ -51,5 +53,6 @@ categories: [study, software-engineering]
 https://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%EC%8A%A4%EB%A9%9C <br>
 https://refactoring.guru/ko/refactoring/smells <br>
 https://brunch.co.kr/@dichter/15 <br>
-https://xangmin.tistory.com/162
+https://xangmin.tistory.com/162 <br>
+https://www.makeuseof.com/tag/code-smells-fix/ <br>
 </span>
