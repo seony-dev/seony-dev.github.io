@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "[C#] C#이란?"
+description: > 
+hide_last_modified: true
+categories: [study, c-sharp]
+---
+
+![](../../../assets/img/blog/c_sharp/cs_logo.png)
+
+<span style="font-size:16px; color:darkgray;">이미지 출처 : https://www.linkedin.com/pulse/c-structured-programming-language-sunil-sharma</span>
+
+> **C#**
+- 마이크로소프트(Microsoft)사에서 개발한 C언어 기반 객체지향 프로그래밍 언어이며, 주로 Window 기반 프로그램 및 게임 개발, 웹 애플케이션 등 다양하게 쓰인다.
+C#은 닷넷(.NET) 프레임워크의 한 부분으로 만들어졌으며, 닷넷을 사용할 수 있는 여러 언어 중에서 가장 적합하다.
+
+🤔 닷넷?
+> **닷넷(.NET)**
+- 닷넷(.NET)은 생산성, 성능, 보안 및 안정성을 제공하도록 설계되었으며, 가비지 컬렉터(GC)로 자동 메모리 관리를 할 수 있다. 
+가비지 컬렉터 및 엄격한 컴파일러를 사용하기 때문에 안전성이 뛰어나다.
+
+<span style="font-size:16px; color:darkgray;">※ 가비지 컬렉터(Ggarbage collector) : 닷넷 서비스로 힙(Heap)메모리 영역의 데이터가 참조되지 않을 때, 참조되지 않는 메모리를 자동으로 정리해준다.</span>

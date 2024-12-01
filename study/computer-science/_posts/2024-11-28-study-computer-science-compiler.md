@@ -3,10 +3,10 @@ layout: post
 title:  "[CS] 컴파일러(compiler)와 인터프리터(interpreter)"
 description: > 
 hide_last_modified: true
-categories: [study, cs]
+categories: [study, computer-science]
 ---
 
-![](../../../assets/img/blog/cs/compiler-vs-interpreter.gif)
+![](../../../assets/img/blog/computer_science/compiler-vs-interpreter.gif)
 
 ### 🖥️ 컴파일러란?
 > 고급 프로그래밍 언어로 작성한 원시 코드 (Source Code)를 컴퓨터 내부에서 사용 가능한 언어인 기계어 (Machine Language)로 '번역'하고, 이를 실행가능(Excecutable)하게 만들어주는 프로그램이다. 
@@ -16,7 +16,7 @@ categories: [study, cs]
 
 -----
 ### 🖥️ 언어 번역기 처리 과정
-![](../../../assets/img/blog/cs/compiler.png)
+![](../../../assets/img/blog/computer_science/compiler.png)
 
 -----
 ### 🖥️ 컴파일 논리적 단계 구분
@@ -52,7 +52,7 @@ categories: [study, cs]
 
 -----
 #### 🖥️ 인터프리터 처리 과정
-![interpreter](../../../assets/img/blog/cs/interpreter.png)
+![interpreter](../../../assets/img/blog/computer_science/interpreter.png)
 
 -----
 #### 🖥️ 컴파일러와 인터프리터의 공통점과 차이점

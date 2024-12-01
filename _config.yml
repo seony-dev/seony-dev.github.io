@@ -52,12 +52,16 @@ menu:
   - title:             Study
     url:              /study/
     submenu:
-        - title:       CS
-          url:         /cs/
+        - title:       Computer Science
+          url:         /computer-science/
         - title:       Software Engineering
           url:         /software-engineering/
         - title:       OS
           url:         /os/
+        - title:       C++
+          url:         /cpp/
+        - title:       C#
+          url:         /c-sharp/
   
   - title:             Game Developments
     url:               /game-developments/
