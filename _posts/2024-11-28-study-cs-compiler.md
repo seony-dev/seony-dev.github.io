@@ -3,9 +3,7 @@ layout: post
 title:  "[CS] 컴파일러(compiler)"
 description: > 
 hide_last_modified: true
-categories: 
-  - study
-  - cs
+categories: [study, cs]
 ---
 
 ### 🖥️ 컴파일러란?

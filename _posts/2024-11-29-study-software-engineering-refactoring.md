@@ -3,9 +3,7 @@ layout: post
 title:  "[Software Engineering] 리팩터링(Refactoring)"
 description: >
 hide_last_modified: true
-categories: 
-  - study
-  - software-engineering
+categories: [study, software-engineering]
 ---
 
 ### 🖥️ 리팩터링(Refactoring)이란?
