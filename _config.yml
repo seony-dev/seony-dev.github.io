@@ -49,18 +49,24 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Developments
-    url:               /developments/
+  - title:             Game Developments
+    url:               /game-developments/
     submenu:
         - title:         Game Developments
           url:           /game-developments/
-          - title:       CS
-            url:         /cs/
-            - title:     Software Engineering
-            url:         /software-engineering/
+    submenu:
+        - title:       Unreal
+          url:         /ureal/
+        - title:       Unity
+          url:         /unity/
             
-        - title:         Study
-          url:           /study/
+  - title:         Study
+      url:           /study/
+      submenu:
+        - title:       CS
+          url:         /cs/
+        - title:     Software Engineering
+          url:         /software-engineering/
   - title:             About
     url:               /about/
 
