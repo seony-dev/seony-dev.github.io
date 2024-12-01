@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "[CS] 컴파일러(compiler)"
+title:  "[CS] 컴파일러(compiler)와 인터프리터(interpreter)"
 description: > 
 hide_last_modified: true
 categories: [study, cs]
 ---
+
+![](../../../assets/img/blog/cs/compiler-vs-interpreter.gif)
 
 ### 🖥️ 컴파일러란?
 > 고급 프로그래밍 언어로 작성한 원시 코드 (Source Code)를 컴퓨터 내부에서 사용 가능한 언어인 기계어 (Machine Language)로 '번역'하고, 이를 실행가능(Excecutable)하게 만들어주는 프로그램이다. 
@@ -14,13 +16,13 @@ categories: [study, cs]
 
 -----
 ### 🖥️ 언어 번역기 처리 과정
-![](https://velog.velcdn.com/images/seony-dev/post/81838a11-7e9a-45cf-80ae-b1f19977db6c/image.png)
+![](../../../assets/img/blog/cs/compiler.png)
 
 -----
 ### 🖥️ 컴파일 논리적 단계 구분
 
 |제목|내용|
-|------|---|
+|:------:|:---:|
 |어휘 분석(Lexical Analysis|원시 코드를 기종마다 다른 고유의 문자열(Token)으로 변환. 즉 구성하는 문자들을 단어로 분리하여 어휘 요소로 생성하며 설계가 간단함.|
 |구문 분석(Syntax Analysis)|BNF/EBNF 문법 기반으로 Token을 입력하여 추상 구문 형태로 출력. 즉 어휘 요소들을 문장으로 구성하여 문법적으로 검사하고,이를 트리 형태(Parse Tree)로 만들어 분석.|
 |의미 분석(Semantic Analysis)|식별자의 선언 여부, 타입 등 문장이 의미적으로 올바른지 검사하고, 변수의 정의와 사용, 함수 호출 등을 분석|
@@ -43,10 +45,45 @@ categories: [study, cs]
 - Cross-Compiler : 컴파일러가 실행되는 컴퓨터가 아닌 다른 컴퓨터의 실행코드를 생성
 - Simulation : 다른 컴퓨터(상황) 등을 가상 Data로 실행하여 결과를 예측
 
+-----
+#### 🖥️ 인터프리터(interpreter)란?
+고급 프로그래밍 언어로 작성한 원시 코드 (Source Code)를 컴파일 하지 않고, 코드 한 줄 단위로 바로 실행하는 방식으로 동작하는 프로그램. 
+인터프리터를 사용하는 언어의 종류로는 JavaScript, Python, Ruby 등이 있음. 
+
+-----
+#### 🖥️ 인터프리터 처리 과정
+![interpreter](../../../assets/img/blog/cs/interpreter.png)
+
+-----
+#### 🖥️ 컴파일러와 인터프리터의 공통점과 차이점
+
+**공통점** : 
+고급 언어로 작성된 프로그램을 컴퓨터 내부에서 사용 가능한 기계어로 변환하기 위해 사용하는 프로그램이다.
+
+**차이점** : 
+`컴파일러`는 프로그램 전체를 번역해서 기계어로 이루어진 프로그램을 생성하여 실행한다면, `인터프리터`는 작성된 코드 한 문장씩 기계어로 변환해서 바로 실행한다. 
+즉 한 마디로 말하자면, `컴파일러`는 고급 프로그래밍 언어를 기계어(어셈블리어)로 `'번역'`을 하며, `인터프리터`는 `'동시통역'`을 한다고 볼 수 있다.
+
+-----
+#### 🖥️ 컴파일러와 인터프리터의 장·단점
+
+- ##### 컴파일러
+| 장점 | 단점 |
+|:----------:|:----------:|
+|▪ 전체적으로 한 번 디코딩하면 그 다음부터는 실행만 하므로, 실행시간 측면에서 효율적. <br> ▪ 반복문이나 계속 호출되는 부프로그램처럼 많은 횟수를 반복 처리하는 프로그램의 경우에 큰 도움이 됨. | ▪ 몇 줄의 소스 프로그램이 몇백 줄의 기계어로 번역되어 큰 기억 장소를 필요로 할 수도 있음.|
+
+- ##### 인터프리터
+| 장점 | 단점 |
+|:----------:|:----------:|
+|▪ 한 줄 단위로 번역과 실행을 하여 매번 같은 기억 장소를 사용하므로 기억장소를 줄일 수 있음. <br> ▪ 별도의 실행파일이 없어서 코드를 수정할 때 용이함.| ▪ 고급언어로 작성된 프로그램을 한 줄 단위로 번역과 실행을 하기 때문에 반복문과 같은 컴파일러보다 실행시간이 많이 소요됨. |
 
 -----
 <span style="font-size:14px; color:darkgray;"> 출처 : <br>
 http://www.ktword.co.kr/test/view/view.php?m_temp1=1436 <br>
 https://devparker.tistory.com/110 <br>
-컴파일의 필요성(http://elearning.kocw.net/contents4/document/lec/2013/Gachon/Lee%20Sangsun2/3.pdf)
+컴파일의 필요성(http://elearning.kocw.net/contents4/document/lec/2013/Gachon/Lee%20Sangsun2/3.pdf) <br>
+https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter <br>
+https://velog.io/@congaweb/compiler-interpreter <br>
+[noodabee님의 \[컴파일러 언어와 인터프리터 언어 비교\]](https://noodabee.tistory.com/entry/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC-%EC%96%B8%EC%96%B4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0-%EC%96%B8%EC%96%B4)
+
 </span>
