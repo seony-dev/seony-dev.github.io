@@ -3,5 +3,7 @@ layout: list
 title: Study
 description: >
   about Studying Programming 
-grouped: true
+sidebar: true
+order: 1
+#grouped: true
 ---
