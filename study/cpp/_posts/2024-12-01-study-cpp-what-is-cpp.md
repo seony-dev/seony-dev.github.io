@@ -164,14 +164,14 @@ void* malloc() //몇 바이트를 동적 할당할건지 (void* : 필요한 자�
 -----
 
 * String
-> ASCII - ANSI (1Byte) - 0~127
+> 
+**ASCII - ANSI (1Byte) - 0~127**
 Char
 [+,-][][][][][][][]
 맨 앞은 부호 
 2^7 = 128 (0~127)
 
-Unicode - MBCS - L""
-		  Unicode - Text("")
+**Unicode - MBCS - L"" / Unicode - Text("")**
 		  
 		  
 
