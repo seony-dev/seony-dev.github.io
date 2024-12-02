@@ -4,6 +4,7 @@ title:  "[Software Engineering] 코드 스멜(code smell)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]
+tags: [Software Engineering]
 ---
 
 ![](../../../assets/img/blog/software_engineering/codesmell/codesmell.jpg)

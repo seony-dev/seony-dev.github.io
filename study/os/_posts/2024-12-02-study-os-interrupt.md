@@ -4,7 +4,7 @@ title:  "[OS] 인터럽트(interrupt)"
 description: >
 hide_last_modified: true
 categories: [study, os]
-tags: [study, os, programming]
+tags: [Programming, OS]
 ---
 ![프로그램 실행 중 'E'키를 눌러서 중단시켜보자^_^ㅋㅋ](../../../assets/img/blog/os/interrupt.png)
 

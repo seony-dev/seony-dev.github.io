@@ -4,6 +4,7 @@ title:  "[C++] C++ 이론 정리"
 description: > 
 hide_last_modified: true
 categories: [study, cpp]
+tags: [Programming, C++]
 ---
 
 ![](../../../assets/img/blog/cpp/cpp_img.png)

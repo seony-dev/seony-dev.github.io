@@ -4,6 +4,7 @@ title:  "[C#] C#이란?"
 description: > 
 hide_last_modified: true
 categories: [study, c-sharp]
+tags: [Programming, C#]
 ---
 
 ![](../../../assets/img/blog/c_sharp/cs_logo.png)

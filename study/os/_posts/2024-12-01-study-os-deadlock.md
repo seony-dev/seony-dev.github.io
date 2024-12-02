@@ -4,6 +4,7 @@ title:  "[OS] 데드락(Deadlock)"
 description: >
 hide_last_modified: true
 categories: [study, os]
+tags: [programming, os]
 ---
 ![](../../../assets/img/blog/os/deadlock.png)
 

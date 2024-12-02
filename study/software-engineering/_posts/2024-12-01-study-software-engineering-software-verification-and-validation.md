@@ -4,6 +4,7 @@ title:  "[Software Engineering] 소프트웨어 검증 및 확인 (Software Veri
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]
+tags: [Programming, Software Engineering]
 ---
 
 ![](../../../assets/img/blog/software_engineering/vav/verication-and-validation.png)

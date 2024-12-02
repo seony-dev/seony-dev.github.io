@@ -4,6 +4,7 @@ title:  "[OS] DLL(Dynamic Link Library)"
 description: >
 hide_last_modified: true
 categories: [study, os]
+tags: [Programming, OS]
 ---
 ![](../../../assets/img/blog/os/dll_img.png)
 
