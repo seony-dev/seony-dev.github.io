@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Unreal] 언리얼 내용 정리"
+title:  "[Unreal] 24.11.27 ~ 29 언리얼 내용 정리"
 description: >
 hide_last_modified: true
 categories: [game-developments, unreal]
@@ -50,7 +50,7 @@ tags: ["게임 개발", "unreal"]
 ex) 액터
 
 씬 컴포넌트	&nbsp;&nbsp; 상대 간격 존재 <br>
-------------- ========> <br>
+====================================> <br>
 액터 컴포넌트 &nbsp;&nbsp; 상대 간격 미존재 <br>
 
 -----
