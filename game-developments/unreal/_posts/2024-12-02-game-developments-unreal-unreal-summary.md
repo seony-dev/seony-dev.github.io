@@ -14,7 +14,7 @@ tags: ["게임 개발", "unreal"]
 UObject
 	┗ AActor - 배치 가능
 		┗ APawn - 입력 가능
-  			┗ ACharacter - UCharacterMovementComponent(UObject로부터 상속)
+  			┗ ACharacter - UCharacterMovementComponent (UObject로부터 상속)
    				┗ BP_Player
 	 				┗  SpringArm
 	  					┗  Camera
@@ -85,6 +85,6 @@ UMaterialInterface
 
 ### 🎮 PBR
 - 물리 기반 렌더링
-거칠기(Roughness)
-금속성(Metallic)
+	- 거칠기(Roughness)
+	- 금속성(Metallic)
 
