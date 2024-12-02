@@ -111,4 +111,5 @@ https://refactoring.guru/ko/refactoring/smells <br>
 https://brunch.co.kr/@dichter/15 <br>
 https://xangmin.tistory.com/162 <br>
 https://www.makeuseof.com/tag/code-smells-fix/ <br>
+https://www.techtarget.com/searchsoftwarequality/tip/Understanding-code-smells-and-how-refactoring-can-help <br>
 </span>
