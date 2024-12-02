@@ -12,12 +12,12 @@ tags: ["게임 개발", "unreal"]
 ### 🎮 Unreal Character 구조 예시
 > 
 UObject
-ㄴAActor - 배치 가능
- ㄴAPawn - 입력 가능
-  ㄴACharacter - UCharacterMovementComponent(UObject로부터 상속)
-   ㄴBP_Player
-	 ㄴ SpringArm
-	  ㄴ Camera
+	┗ AActor - 배치 가능
+		┗ APawn - 입력 가능
+  			┗ ACharacter - UCharacterMovementComponent(UObject로부터 상속)
+   				┗ BP_Player
+	 				┗  SpringArm
+	  					┗  Camera
 	  
 -----
  
@@ -30,13 +30,13 @@ UObject
 ### 🎮 Unreal Shape Component 구조 예시
 > 
 UObject
-ㄴUActorComponent
-	ㄴUSceneComponent(it have FTransform) - 접두사 F : 구조체
-		ㄴUPrimitiveComponent (it have VB, IB, ...) - Buffer
-			ㄴUShapeComponent (it have Collision) - 충돌 내용
-				ㄴUSphereComponent
-				ㄴUCapsuleComponent
-				ㄴUBoxComponent
+	┗ UActorComponent
+		┗ USceneComponent(it have FTransform) - 접두사 F : 구조체
+			┗ UPrimitiveComponent (it have VB, IB, ...) - Buffer
+				┗ UShapeComponent (it have Collision) - 충돌 내용
+					┗ USphereComponent
+					┗ UCapsuleComponent
+					┗ UBoxComponent
 								
 * Component : 추가적인 기능을 제공하기 위함.
 
@@ -77,9 +77,9 @@ Shader - single, float : Scalar
 
 ### 🎮 Unreal Material 구조 예시
 UMaterialInterface
-ㄴUMaterial : 컴파일이 되지 않은 머터리얼
-	ㄴUMaterialInstanceConstant : 정적 머터리얼 객체 - 에디터에서는 수정 가능하지만, 프로그래밍에서 수정할 수 없음. 
-		ㄴUmaterialInstanceDynamic : 동적 머터리얼 객체 - 프로그래밍에서 수정할 수 있음.
+	┗ UMaterial : 컴파일이 되지 않은 머터리얼
+		┗ UMaterialInstanceConstant : 정적 머터리얼 객체 - 에디터에서는 수정 가능하지만, 프로그래밍에서 수정할 수 없음. 
+			┗ UmaterialInstanceDynamic : 동적 머터리얼 객체 - 프로그래밍에서 수정할 수 있음.
 		
 -----
 
