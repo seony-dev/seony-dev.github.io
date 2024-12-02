@@ -11,13 +11,13 @@ tags: ["게임 개발", "unreal"]
 
 ### 🎮 Unreal Character 구조 예시
 > 
-UObject
-&emsp;┗ AActor - 배치 가능 <br>
-&emsp;&emsp;┗ APawn - 입력 가능 <br>
-&emsp;&emsp;&emsp;┗ ACharacter - UCharacterMovementComponent (UObject로부터 상속) <br>
-&emsp;&emsp;&emsp;&emsp;┗ BP_Player <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;┗  SpringArm <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;┗  Camera <br>
+**UObject**
+&emsp; **┗ AActor - 배치 가능** <br>
+&emsp;&emsp; **┗ APawn - 입력 가능** <br>
+&emsp;&emsp;&emsp; **┗ ACharacter - UCharacterMovementComponent (UObject로부터 상속)** <br>
+&emsp;&emsp;&emsp;&emsp; **┗ BP_Player** <br>
+&emsp;&emsp;&emsp;&emsp;&emsp; **┗  SpringArm** <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **┗  Camera** <br>
 	  
 -----
  
@@ -29,14 +29,14 @@ UObject
 
 ### 🎮 Unreal Shape Component 구조 예시
 > 
-UObject <br>
-&emsp;┗ UActorComponent <br>
-&emsp;&emsp;┗ USceneComponent(it have FTransform) - 접두사 F : 구조체 <br>
-&emsp;&emsp;&emsp;┗ UPrimitiveComponent (it have VB, IB, ...) - Buffer <br>
-&emsp;&emsp;&emsp;&emsp;┗ UShapeComponent (it have Collision) - 충돌 내용 <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;┗ USphereComponent <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;┗ UCapsuleComponent <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;┗ UBoxComponent <br>
+**UObject** <br>
+&emsp; **┗ UActorComponent** <br>
+&emsp;&emsp; **┗ USceneComponent(it have FTransform) - 접두사 F : 구조체** <br>
+&emsp;&emsp;&emsp; **┗ UPrimitiveComponent (it have VB, IB, ...) - Buffer** <br>
+&emsp;&emsp;&emsp;&emsp; **┗ UShapeComponent (it have Collision) - 충돌 내용** <br>
+&emsp;&emsp;&emsp;&emsp;&emsp; **┗ USphereComponent** <br>
+&emsp;&emsp;&emsp;&emsp;&emsp; **┗ UCapsuleComponent** <br>
+&emsp;&emsp;&emsp;&emsp;&emsp; **┗ UBoxComponent** <br>
 								
 * Component : 추가적인 기능을 제공하기 위함.
 
@@ -79,10 +79,11 @@ Shader - single, float : Scalar
 
 ### 🎮 Unreal Material 구조 예시
 
-UMaterialInterface <br>
-&emsp;┗ UMaterial : 컴파일이 되지 않은 머터리얼 <br>
-&emsp;&emsp;┗ UMaterialInstanceConstant : 정적 머터리얼 객체 - 에디터에서는 수정 가능하지만, 프로그래밍에서 수정할 수 없음. <br>
-&emsp;&emsp;&emsp;┗ UmaterialInstanceDynamic : 동적 머터리얼 객체 - 프로그래밍에서 수정할 수 있음. <br>
+>
+**UMaterialInterface** <br>
+&emsp;**┗ UMaterial : 컴파일이 되지 않은 머터리얼** <br>
+&emsp;&emsp; **┗ UMaterialInstanceConstant : 정적 머터리얼 객체 - 에디터에서는 수정 가능하지만, 프로그래밍에서 수정할 수 없음.** <br>
+&emsp;&emsp;&emsp; **┗ UmaterialInstanceDynamic : 동적 머터리얼 객체 - 프로그래밍에서 수정할 수 있음.** <br>
 		
 -----
 
