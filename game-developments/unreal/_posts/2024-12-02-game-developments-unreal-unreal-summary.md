@@ -7,6 +7,8 @@ categories: [game-developments, unreal]
 tags: ["게임 개발", "unreal"]
 ---
 
+<img src="../../../assets/img/blog/unreal/unreal_logo.png" style="width: 832px; height: auto"/>
+
 ### 🎮 Unreal Character 구조 예시
 > 
 UObject
