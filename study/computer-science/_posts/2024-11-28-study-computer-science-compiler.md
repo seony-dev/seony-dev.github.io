@@ -4,6 +4,7 @@ title:  "[CS] 컴파일러(compiler)와 인터프리터(interpreter)"
 description: > 
 hide_last_modified: true
 categories: [study, computer-science]
+tags: [study, cs]
 ---
 
 ![](../../../assets/img/blog/computer_science/compiler-vs-interpreter.gif)
