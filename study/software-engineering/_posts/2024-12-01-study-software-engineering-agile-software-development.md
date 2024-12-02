@@ -4,10 +4,10 @@ title:  "[Software Engineering] 애자일 소프트웨어 개발(Agile Software 
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]
-tags: [Programming, Software Engineering, CI/CD]
+tags: [Programming, Software Engineering]
 ---
 
-![](../../../assets/img/blog/os/agile.jpg)
+![](../../../assets/img/blog/software_engineering/agile.jpg)
 
 -----
 

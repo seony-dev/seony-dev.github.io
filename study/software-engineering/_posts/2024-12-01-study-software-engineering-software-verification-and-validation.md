@@ -7,7 +7,7 @@ categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
 
-![](../../../assets/img/blog/software_engineering/vav/verication-and-validation.png)
+![](../../../assets/img/blog/software_engineering/verication-and-validation.png)
 
 
 ### 🖥️ 소프트웨어 검증 및 확인 (Software Verification and Validation)이란?

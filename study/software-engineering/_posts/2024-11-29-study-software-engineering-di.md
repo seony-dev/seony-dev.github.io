@@ -6,7 +6,7 @@ hide_last_modified: true
 categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
-![](../../../assets/img/blog/software_engineering/di/di_img.png)
+![](../../../assets/img/blog/software_engineering/di.png)
 
 
 ### 🖥️ DI(Dependency Injection)이란?
