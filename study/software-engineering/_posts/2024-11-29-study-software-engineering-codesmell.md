@@ -39,13 +39,69 @@ categories: [study, software-engineering]
 
 -----
 ### 🖥 코드 스멜의 예시
-(내용 수정하기)
 
+- 코드 중복성의 예시
+```cs
+public class FileLogger
+{
+    public bool IsLogMessageValid(string message)
+    {
+        return (!string.IsNullOrEmpty(message));
+    }
+
+    public bool DoLog(string message)
+    {
+        return true;
+    }
+}
+
+public clads DbLogger
+{
+    public bool IsLogMessageValid(string message)
+    {
+        return (!string.IsNullOrEmpty(message));
+    }
+
+    public bool DoLog(string message)
+    {
+        return true;
+    }
+}
+```
+
+> 프로그래머는 로그 메시지가 유효한지 확인하기 위해 동일한 로직을 두 번 작성해야 함. 더 나은 방법은 이 두 클래스를 `리팩토링`하고 `추상 클래스`를 만들어야함. 
 
 -----
 ### 🖥 코드 스멜 해결 방법
 
 '리팩토링(Refactoring)'으로 간단명료하게 클린 코드화 할 수 있음.  
+
+```cs
+public abstract class BaseLogger
+{
+    public bool IsLogMessageValid(string message)
+    {
+        return (!string.IsNullOrEmpty(message));
+    }
+
+    public abstract bool DoLog(string message);
+}
+public class FileLogger : BaseLogger
+{
+    public override bool DoLog(string message)
+    {
+        return true; //File Log 
+    }
+}
+
+public clads DbLogger : BaseLogger
+{
+    public override bool DoLog(string message)
+    {
+        return true; //DB Log 
+    }
+}
+```
 
 -----
 
