@@ -41,6 +41,7 @@ categories: [study, software-engineering]
 ### 🖥 코드 스멜의 예시
 
 - 코드 중복성의 예시
+
 ```cs
 public class FileLogger
 {
