@@ -4,7 +4,7 @@ title:  "[Software Engineering] 코드 스멜(code smell)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]
-tags: [Software Engineering]
+tags: [Programming, Software Engineering]
 ---
 
 ![](../../../assets/img/blog/software_engineering/codesmell/codesmell.jpg)
@@ -71,12 +71,12 @@ public clads DbLogger
 }
 ```
 
-> 프로그래머는 로그 메시지가 유효한지 확인하기 위해 동일한 로직을 두 번 작성해야 함. 더 나은 방법은 이 두 클래스를 `리팩토링`하고 `추상 클래스`를 만들어야함. 
+> 프로그래머는 로그 메시지가 유효한지 확인하기 위해 동일한 로직을 두 번 작성해야 한다. 더 나은 방법은 이 두 클래스를 `리팩토링`하고 `추상 클래스`를 만들어야 한다. 
 
 -----
 ### 🖥 코드 스멜 해결 방법
 
-'리팩토링(Refactoring)'으로 간단명료하게 클린 코드화 할 수 있음.  
+'리팩토링(Refactoring)'으로 간단명료하게 클린 코드화 할 수 있다.  
 
 ```cs
 public abstract class BaseLogger
