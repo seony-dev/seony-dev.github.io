@@ -8,6 +8,11 @@ tags: [Programming, OS]
 ---
 ![프로그램 실행 중 'E'키를 눌러서 중단시켜보자^_^ㅋㅋ](../../../assets/img/blog/os/interrupt.png)
 
+<span style="color : gray; font-size:12px;"> 이미지 설명 : 
+CPU가 어셈블리 명령어로 레지스터 값 이동(mov)하고 더하기(add) 같은 정상적인 코드 실행 중이었음. → 갑자기 인터럽트(I HAVE AN IMPORTANT MESSAGE)가 발생함. → CPU가 현재 작업 멈추고 인터럽트 처리함. → 결국 'E' 키 눌러 상황 종료하거나 작업 마무리함. </span>
+
+----
+
 #### 🖥️ 인터럽트(Interrupt)란?
 
 > CPU가 프로그램을 실행하고 있을 때 예외상황이 발생해 처리가 필요할 경우 현재 실행중인 작업을 중단하고 발생된 상황을 처리한 뒤 다시 실행중인 작업으로 복귀하는 것을 말한다.
