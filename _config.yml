@@ -62,6 +62,8 @@ menu:
           url:         /cpp/
         - title:       C#
           url:         /c-sharp/
+        - title:       Coding Test
+          url:         /coding-test/
   
   - title:             Game Developments
     url:               /game-developments/
