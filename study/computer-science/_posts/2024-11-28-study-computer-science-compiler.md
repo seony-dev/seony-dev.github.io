@@ -87,6 +87,5 @@ https://devparker.tistory.com/110 <br>
 컴파일의 필요성(http://elearning.kocw.net/contents4/document/lec/2013/Gachon/Lee%20Sangsun2/3.pdf) <br>
 https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter <br>
 https://velog.io/@congaweb/compiler-interpreter <br>
-[noodabee님의 \[컴파일러 언어와 인터프리터 언어 비교\]](https://noodabee.tistory.com/entry/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC-%EC%96%B8%EC%96%B4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0-%EC%96%B8%EC%96%B4)
-
 </span>
+[noodabee님의 \[컴파일러 언어와 인터프리터 언어 비교\]](https://noodabee.tistory.com/entry/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC-%EC%96%B8%EC%96%B4%EC%99%80-%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0-%EC%96%B8%EC%96%B4)
