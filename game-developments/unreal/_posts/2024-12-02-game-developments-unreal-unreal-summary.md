@@ -59,10 +59,10 @@ ex) 액터
 
 > 
 **Flynn(플린 표기법)**
-- SISD Single I - Single Data : 하나의 명령어로 하나의 데이터를 처리
-- SIMD Single I - Multi Data : 하나의 명령어로 여러 데이터를 처리
-- MISD Multi I - Single Data(이론상) : 여러 명령어로 하나의 데이터를 처리
-- MIMD Multi I - Multi Data : 여러 명령어로 여러 데이터를 처리
+- **SISD Single I - Single Data** : 하나의 명령어로 하나의 데이터를 처리
+- **SIMD Single I - Multi Data** : 하나의 명령어로 여러 데이터를 처리
+- **MISD Multi I - Single Data** (이론상) : 여러 명령어로 하나의 데이터를 처리
+- **MIMD Multi I - Multi Data** : 여러 명령어로 여러 데이터를 처리
 
 -----
 
@@ -81,9 +81,9 @@ Shader - single, float : Scalar
 
 >
 **UMaterialInterface** <br>
-&emsp;**┗ UMaterial : 컴파일이 되지 않은 머터리얼** <br>
-&emsp;&emsp; **┗ UMaterialInstanceConstant : 정적 머터리얼 객체 - 에디터에서는 수정 가능하지만, 프로그래밍에서 수정할 수 없음.** <br>
-&emsp;&emsp;&emsp; **┗ UmaterialInstanceDynamic : 동적 머터리얼 객체 - 프로그래밍에서 수정할 수 있음.** <br>
+&emsp;**┗ UMaterial** : 컴파일이 되지 않은 머터리얼 <br>
+&emsp;&emsp; **┗ UMaterialInstanceConstant** : 정적 머터리얼 객체 - 에디터에서는 수정 가능하지만, 프로그래밍에서 수정할 수 없음. <br>
+&emsp;&emsp;&emsp; **┗ UmaterialInstanceDynamic** : 동적 머터리얼 객체 - 프로그래밍에서 수정할 수 있음. <br>
 		
 -----
 
