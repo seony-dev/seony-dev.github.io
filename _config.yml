@@ -196,6 +196,8 @@ kramdown:
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
+# post setting
+future: true
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------

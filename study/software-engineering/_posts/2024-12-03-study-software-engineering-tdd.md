@@ -6,6 +6,7 @@ TDD (Test-driven development, 테스트 주도 개발)
 hide_last_modified: true
 categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
+published: true
 ---
 
 ![](../../../assets/img/blog/software_engineering/tdd_process.png)

@@ -6,6 +6,7 @@ CBD (Component-based development, 컴포넌트 기반 개발)
 hide_last_modified: true
 categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
+published: true
 ---
 
 ![](../../../assets/img/blog/software_engineering/tdd_process.png)
