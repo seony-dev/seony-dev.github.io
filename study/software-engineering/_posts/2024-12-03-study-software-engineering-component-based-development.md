@@ -7,6 +7,10 @@ categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
 
+![](../../../assets/img/blog/software_engineering/cbd_process.png)
+
+
+<span style="color:darkgray; font-size:13px;">이미지 출처 : https://mobileappcircular.com/understanding-the-essence-of-component-based-architecture-5c6d4452f100 </span>
 ----
 
 #### 🖥️ CBD(component-based development, 테스트 주도 개발)이란?
@@ -76,4 +80,4 @@ tags: [Programming, Software Engineering]
 <span style="color:darkgray">출처 : </span> <br>
 https://en.wikipedia.org/wiki/Component-based_software_engineering <br>
 정의석, 「차세대 소프트웨어 개발 방법론」, 한국데이터베이스진흥원, 제115권, p94-97 <br>
-https://incodom.kr/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C
+https://incodom.kr/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C <br>
