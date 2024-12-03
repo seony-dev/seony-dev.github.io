@@ -8,6 +8,9 @@ categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
 
+![](../../../assets/img/blog/software_engineering/tdd_process.png)
+
+<span style="color:darkgray; font-size:13px;">이미지 출처 : https://www.icterra.com/tdd-is-not-about-testing-but-the-design/</span>
 ----
 
 #### 🖥️ TDD(Test-Driven Development, 테스트 주도 개발)이란?
@@ -32,10 +35,6 @@ tags: [Programming, Software Engineering]
 ----
 
 #### 🖥️ TDD의 사이클
-
-![](../../../assets/img/blog/software_engineering/tdd_process.png)
-
-<span style="color:darkgray; font-size:13px;">이미지 출처 : https://www.icterra.com/tdd-is-not-about-testing-but-the-design/</span>
 
 1. Red (실패하는 테스트 작성)
   - **구현할 기능에 대한 테스트를 작성.**
