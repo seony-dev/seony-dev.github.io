@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] CBD (Component-based development)"
+title: "[Software Engineering] CBD (Component-based development)"
 description: >
 CBD (Component-based development, 컴포넌트 기반 개발)
 hide_last_modified: true
