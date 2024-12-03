@@ -96,6 +96,9 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              10
 paginate_path:         /:num/
 
+#sidebar tags
+sidebar_tags: [mytags, othertag]
+
 
 # Theme
 # ---------------------------------------------------------------------------------------
