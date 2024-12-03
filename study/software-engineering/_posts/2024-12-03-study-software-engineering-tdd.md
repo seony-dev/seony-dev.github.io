@@ -11,7 +11,7 @@ tags: [Programming, Software Engineering]
 ![](../../../assets/img/blog/software_engineering/tdd_process.png)
 
 <span style="color:darkgray; font-size:13px;">이미지 출처 : https://www.icterra.com/tdd-is-not-about-testing-but-the-design/</span>
-----
+
 
 #### 🖥️ TDD(Test-Driven Development, 테스트 주도 개발)이란?
 
