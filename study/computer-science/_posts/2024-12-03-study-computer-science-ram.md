@@ -69,11 +69,8 @@ RAM(메모리) 용량이란 1개의 메모리 기판에서 제공하는 용량�
 
 -----
 <span style="color : darkgray;">출처 : 
-https://www.dell.com/support/kbdoc/ko-kr/000148441/%EB%A9%94%EB%AA%A8%EB%A6%AC-ram-%EC%A0%95%EC%9D%98
-  
-  https://www.intel.co.kr/content/www/kr/ko/gaming/resources/how-much-ram-gaming.html
-  
-https://library.gabia.com/contents/infrahosting/1237/
-  
-https://www.chosun.com/economy/tech_it/2023/10/16/PBECBXCKQ5HSTD3VG73IHAH7NU/
+https://www.dell.com/support/kbdoc/ko-kr/000148441/%EB%A9%94%EB%AA%A8%EB%A6%AC-ram-%EC%A0%95%EC%9D%98 <br>
+https://www.intel.co.kr/content/www/kr/ko/gaming/resources/how-much-ram-gaming.html <br>
+https://library.gabia.com/contents/infrahosting/1237/ <br>
+https://www.chosun.com/economy/tech_it/2023/10/16/PBECBXCKQ5HSTD3VG73IHAH7NU/ <br>
 </span>
