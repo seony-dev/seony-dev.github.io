@@ -1,16 +1,13 @@
 ---
 layout: post
-title: "[Software Engineering] CBD (Component-based development)"
+title:  "[Software Engineering] CBD (Component-based development)"
 description: >
-CBD (Component-based development, 컴포넌트 기반 개발)
 hide_last_modified: true
 categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
-published: true
 ---
 
-![](../../../assets/img/blog/software_engineering/tdd_process.png)
-
+----
 
 #### 🖥️ CBD(component-based development, 테스트 주도 개발)이란?
 
