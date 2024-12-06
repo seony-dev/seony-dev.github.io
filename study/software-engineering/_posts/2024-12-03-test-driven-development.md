@@ -6,8 +6,12 @@ hide_last_modified: true
 categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
-![](../../../assets/img/blog/software_engineering/tdd_process.png)
 
+<p align="center">
+  <img src="../../../assets/img/blog/software_engineering/tdd_process.png">
+</p>
+
+-----
 
 <span style="color:darkgray; font-size:13px;">이미지 출처 : https://www.icterra.com/tdd-is-not-about-testing-but-the-design/</span>
 
@@ -89,6 +93,6 @@ tags: [Programming, Software Engineering]
 
 -----
 <span style="color:darkgray">출처 : </span> <br>
-https://en.wikipedia.org/wiki/Test-driven_development <br>
-https://yozm.wishket.com/magazine/detail/2308/ <br>
-https://www.icterra.com/tdd-is-not-about-testing-but-the-design/ <br>
+· https://en.wikipedia.org/wiki/Test-driven_development <br>
+· https://yozm.wishket.com/magazine/detail/2308/ <br>
+· https://www.icterra.com/tdd-is-not-about-testing-but-the-design/ <br>

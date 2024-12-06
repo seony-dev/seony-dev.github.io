@@ -7,7 +7,9 @@ categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
 
-![](../../../assets/img/blog/software_engineering/agile.jpg)
+<p align="center">
+  <img src="../../../assets/img/blog/software_engineering/agile.jpg">
+</p>
 
 -----
 
@@ -42,5 +44,6 @@ tags: [Programming, Software Engineering]
 전통적인 프로젝트 관리 방식과 비교하면 애자일 방법론은 속도, 유연성, 팀워크, 관계자의 요구 사항을 가장 우선순위로 둔다는 점에서 차이가 있다.
 
 -----
-<span style="color:darkgray">출처 : </span> <br>
-https://experience.dropbox.com/ko-kr/resources/agile-methodology
+<span style="color:darkgray">출처 : 
+· https://experience.dropbox.com/ko-kr/resources/agile-methodology <br>
+</span> 

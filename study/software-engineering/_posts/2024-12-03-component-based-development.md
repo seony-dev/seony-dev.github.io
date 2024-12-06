@@ -7,7 +7,11 @@ categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
 
-![](../../../assets/img/blog/software_engineering/cbd_process.png)
+<p align="center">
+  <img src="../../../assets/img/blog/software_engineering/cbd_process.png">
+</p>
+
+-----
 
 
 <span style="color:darkgray; font-size:13px;">이미지 출처 : https://mobileappcircular.com/understanding-the-essence-of-component-based-architecture-5c6d4452f100 </span>

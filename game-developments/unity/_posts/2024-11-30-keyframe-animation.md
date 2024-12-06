@@ -6,7 +6,11 @@ hide_last_modified: true
 categories: [game-developments, unity]
 ---
 
-<img src="../../../assets/img/blog/unity/keyframe_animation.jpg" style="width: 832px; height: auto"/>
+<p align="center">
+  <img src="../../../assets/img/blog/unity/keyframe_animation.jpg" style="width: 832px; height: auto" />
+</p>
+
+-----
 
 #### 🖥️ 개요
 > 키 프레임 애니메이션을 사용하면 두 개 이상의 대상 값을 사용하여 애니메이션 효과를 주고 애니메이션의 \*보간 방법을 제어할 수 있다.
@@ -26,5 +30,5 @@ categories: [game-developments, unity]
 
 -----
 <span style="color:darkgray">출처 : </span> <br>
-https://eunsikk.tistory.com/70 <br>
-https://learn.microsoft.com/ko-kr/dotnet/desktop/wpf/graphics-multimedia/key-frame-animations-overview?view=netframeworkdesktop-4.8
+· https://eunsikk.tistory.com/70 <br>
+· https://learn.microsoft.com/ko-kr/dotnet/desktop/wpf/graphics-multimedia/key-frame-animations-overview?view=netframeworkdesktop-4.8 <br>

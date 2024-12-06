@@ -6,7 +6,11 @@ hide_last_modified: true
 categories: [study, os]
 tags: [Programming, OS]
 ---
-![프로그램 실행 중 'E'키를 눌러서 중단시켜보자^_^ㅋㅋ](../../../assets/img/blog/os/interrupt.png)
+
+<p align="center">
+  <img src="../../../assets/img/blog/os/interrupt.png" alt="프로그램 실행 중 'E'키를 눌러서 중단시켜보자^_^ㅋㅋ" >
+</p>
+----
 
 <span style="color : gray; font-size:12px;"> 이미지 설명 : <br>
 ①. CPU가 어셈블리 명령어로 레지스터 값 이동(mov)하고 더하기(add) 같은 정상적인 코드 실행 중이었음. <br>

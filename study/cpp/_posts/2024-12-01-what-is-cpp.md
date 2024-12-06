@@ -7,7 +7,11 @@ categories: [study, cpp]
 tags: [Programming, C++]
 ---
 
-![](../../../assets/img/blog/cpp/cpp_img.png)
+<p align="center">
+  <img src="../../../assets/img/blog/cpp/cpp_img.png">
+</p>
+
+----
 
 ### 🖥️ C/C++ 처리 과정
 > Header -> 전처리기 -> 컴파일러 -> 목적파일(obj) -> 링커(lnk) -> 실행파일(exe)

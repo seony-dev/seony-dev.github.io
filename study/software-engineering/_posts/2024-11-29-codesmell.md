@@ -7,7 +7,11 @@ categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
 
-![](../../../assets/img/blog/software_engineering/codesmell.jpg)
+<p align="center">
+  <img src="../../../assets/img/blog/software_engineering/codesmell.jpg">
+</p>
+
+----
 
 ### 🖥️ 코드 스멜(code smell)이란?
 > 직역하자면 코드의 냄새, 즉 '악취가 나는 코드'이며 컴퓨터 프로그래밍 코드에서 개발자가 이해하거나 유지보수하기 어려운 코드이다.
@@ -108,10 +112,10 @@ public clads DbLogger : BaseLogger
 -----
 
 <span style="font-size:14px; color:darkgray;"> 출처 : <br>
-https://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%EC%8A%A4%EB%A9%9C <br>
-https://refactoring.guru/ko/refactoring/smells <br>
-https://brunch.co.kr/@dichter/15 <br>
-https://xangmin.tistory.com/162 <br>
-https://www.makeuseof.com/tag/code-smells-fix/ <br>
-https://www.techtarget.com/searchsoftwarequality/tip/Understanding-code-smells-and-how-refactoring-can-help <br>
+· https://ko.wikipedia.org/wiki/%EC%BD%94%EB%93%9C_%EC%8A%A4%EB%A9%9C <br>
+· https://refactoring.guru/ko/refactoring/smells <br>
+· https://brunch.co.kr/@dichter/15 <br>
+· https://xangmin.tistory.com/162 <br>
+· https://www.makeuseof.com/tag/code-smells-fix/ <br>
+· https://www.techtarget.com/searchsoftwarequality/tip/Understanding-code-smells-and-how-refactoring-can-help <br>
 </span>

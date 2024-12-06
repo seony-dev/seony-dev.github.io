@@ -7,8 +7,11 @@ categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
 ---
 
-![](../../../assets/img/blog/software_engineering/verication-and-validation.png)
+<p align="center">
+  <img src="../../../assets/img/blog/software_engineering/verication-and-validation.png">
+</p>
 
+-----
 
 ### 🖥️ 소프트웨어 검증 및 확인 (Software Verification and Validation)이란?
 > 소프트웨어 엔지니어링에서 검증과 확인은 시스템이 사양과 요구 사항을 충족하는지, 의도한 목적을 달성하는지 확인하는 과정이며, 이를 소프트웨어 품질 관리라고도 한다.
@@ -34,6 +37,6 @@ tags: [Programming, Software Engineering]
 -----
 
 <span style="font-size:14px; color:darkgray;"> 출처 : <br>
-https://en.wikipedia.org/wiki/Software_verification_and_validation<br>
-https://refactoring.guru/ko/refactoring/what-is-refactoring <br>
+· https://en.wikipedia.org/wiki/Software_verification_and_validation<br>
+· https://refactoring.guru/ko/refactoring/what-is-refactoring <br>
 </span>
