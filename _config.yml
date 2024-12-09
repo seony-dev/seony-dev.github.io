@@ -52,6 +52,8 @@ menu:
   - title:             Study
     url:              /study/
     submenu:
+        - title:       Computer Graphics
+          url:         /computer-graphics/
         - title:       Computer Science
           url:         /computer-science/
         - title:       Software Engineering

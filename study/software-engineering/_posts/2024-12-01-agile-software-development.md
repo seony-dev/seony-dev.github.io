@@ -45,5 +45,5 @@ tags: [Programming, Software Engineering]
 
 -----
 <span style="color:darkgray">출처 : 
-· https://experience.dropbox.com/ko-kr/resources/agile-methodology <br>
+＊ https://experience.dropbox.com/ko-kr/resources/agile-methodology <br>
 </span> 

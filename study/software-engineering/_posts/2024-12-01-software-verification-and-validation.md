@@ -37,6 +37,6 @@ tags: [Programming, Software Engineering]
 -----
 
 <span style="font-size:14px; color:darkgray;"> 출처 : <br>
-· https://en.wikipedia.org/wiki/Software_verification_and_validation<br>
-· https://refactoring.guru/ko/refactoring/what-is-refactoring <br>
+＊ https://en.wikipedia.org/wiki/Software_verification_and_validation<br>
+＊ https://refactoring.guru/ko/refactoring/what-is-refactoring <br>
 </span>

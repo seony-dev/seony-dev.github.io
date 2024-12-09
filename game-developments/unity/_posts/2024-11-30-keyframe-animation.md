@@ -29,6 +29,7 @@ categories: [game-developments, unity]
 
 
 -----
-<span style="color:darkgray">출처 : </span> <br>
-· https://eunsikk.tistory.com/70 <br>
-· https://learn.microsoft.com/ko-kr/dotnet/desktop/wpf/graphics-multimedia/key-frame-animations-overview?view=netframeworkdesktop-4.8 <br>
+<span style="color:darkgray">출처 : <br>
+＊ https://eunsikk.tistory.com/70 <br>
+＊ https://learn.microsoft.com/ko-kr/dotnet/desktop/wpf/graphics-multimedia/key-frame-animations-overview?view=netframeworkdesktop-4.8 <br>
+</span>

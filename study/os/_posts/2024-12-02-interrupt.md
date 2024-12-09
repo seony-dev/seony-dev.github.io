@@ -43,5 +43,6 @@ I/O 연산이 끝난 이후 I/O Device는 인터럽트를 통해 CPU에게 알�
 	- 소프트웨어 인터럽트: CPU가 인스트럭션을 수행하는 도중에 일어나는 인터럽트
 
 ----
-<span style="color : darkgrey;">출처 : </span> <br>
-https://nice-engineer.tistory.com/entry/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8Interrupt#recentComments
+<span style="color : darkgrey;">출처 : <br>
+＊ https://nice-engineer.tistory.com/entry/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8Interrupt#recentComments <br>
+</span> 

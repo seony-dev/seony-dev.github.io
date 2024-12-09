@@ -92,7 +92,8 @@ tags: [Programming, Software Engineering]
 
 
 -----
-<span style="color:darkgray">출처 : </span> <br>
-· https://en.wikipedia.org/wiki/Test-driven_development <br>
-· https://yozm.wishket.com/magazine/detail/2308/ <br>
-· https://www.icterra.com/tdd-is-not-about-testing-but-the-design/ <br>
+<span style="color:darkgray">출처 : <br>
+＊ https://en.wikipedia.org/wiki/Test-driven_development <br>
+＊ https://yozm.wishket.com/magazine/detail/2308/ <br>
+＊ https://www.icterra.com/tdd-is-not-about-testing-but-the-design/ <br>
+</span>

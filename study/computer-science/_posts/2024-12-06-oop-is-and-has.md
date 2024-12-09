@@ -107,9 +107,9 @@ int main()
 
 -----
 <span style="color : darkgray;">출처 : <br>
-· https://en.wikipedia.org/wiki/Is-a <br>
-· https://en.wikipedia.org/wiki/Has-a <br>
-· https://www.w3resource.com/java-tutorial/inheritance-composition-relationship.php <br>
-· https://minusi.tistory.com/entry/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5%EC%A0%81-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%EC%9D%98-has-a%EC%99%80-is-a-%EC%B0%A8%EC%9D%B4%EC%A0%90 <br>
-· https://en.wikipedia.org/wiki/Coupling_(computer_programming) <br>
+＊ https://en.wikipedia.org/wiki/Is-a <br>
+＊ https://en.wikipedia.org/wiki/Has-a <br>
+＊ https://www.w3resource.com/java-tutorial/inheritance-composition-relationship.php <br>
+＊ https://minusi.tistory.com/entry/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5%EC%A0%81-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%EC%9D%98-has-a%EC%99%80-is-a-%EC%B0%A8%EC%9D%B4%EC%A0%90 <br>
+＊ https://en.wikipedia.org/wiki/Coupling_(computer_programming) <br>
 </span>
