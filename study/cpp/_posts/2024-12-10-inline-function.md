@@ -41,7 +41,9 @@ tags: [Programming, C++]
 
 ----
 ### 🖥️ 인라인 함수(inline) VS 매크로(Macro)
-> 매크로는 예기치 않은 동작을 발생시킬 수 있고, 이로써 미묘한 버그가 발생할 수 있다.
+> 매크로는 예기치 않은 동작을 발생시킬 수 있고, 이로써 미묘한 버그가 발생할 수 있다. <br>
+즉 인라인 함수는 매크로가 가지는 버그없이 일반 함수처럼 사용할 수 있으며, 디버깅이 가능하다.
+
 
 ``` cpp
 #include <stdio.h>
@@ -100,6 +102,7 @@ int main()
 ---- 
 <span style="color:darkgray; font-size:14px;"> 출처 : <br>
 ＊ https://learn.microsoft.com/ko-kr/cpp/cpp/inline-functions-cpp?view=msvc-170 <br>
+＊ https://siloam72761.tistory.com/entry/C-%EC%9D%B8%EB%9D%BC%EC%9D%B8-%ED%95%A8%EC%88%98%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90-define-%EB%A7%A4%ED%81%AC%EB%A1%9C%EC%99%80-%EC%B0%A8%EC%9D%B4 <br>
 </span>
 
 
