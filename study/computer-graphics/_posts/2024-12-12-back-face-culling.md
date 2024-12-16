@@ -8,7 +8,7 @@ tags: [Programming, ComputerGraphics]
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/backspace_culling.jpg">
+  <img src="../../../assets/img/blog/computer_graphics/backspace_culling.jpg" style="width: 832px; height: auto;" >
 </p>
 
 <span style="color:darkgray; font-size:14px;"> 이미지 출처 : https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Backface-Cull-Object-renders-transparent-when-facing-away-from-view.html </span>

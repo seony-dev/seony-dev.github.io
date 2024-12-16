@@ -8,7 +8,7 @@ tags: [Programming, CS, EmbeddedSystem]
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/blue_screen.png">
+  <img src="../../../assets/img/blog/computer_science/blue_screen.png" style="width: 832px; height: auto;" />
 </p>
 
 -----

@@ -8,7 +8,7 @@ tags: [Programming, ComputerGraphics]
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/alpha_blending.gif">
+  <img src="../../../assets/img/blog/computer_graphics/alpha_blending.gif" style="width: 520px; height: auto;" >
 </p>
 
 <span style="color:darkgray; font-size:14px;"> 이미지 출처 : http://www.fastgraph.com/help/example_blend.html </span>
