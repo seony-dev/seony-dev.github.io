@@ -8,12 +8,13 @@ tags: [Programming, CS, EmbeddedSystem]
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/oop.png">
+  <img src="../../../assets/img/blog/computer_science/blue_screen.png">
 </p>
 
 -----
 #### 🖥️ 워치독 타이머(Watchdog timer)란?
 > COP(Computer Operating Properly)라고도 하며, 컴퓨터의 오작동을 탐지하고 복구하기 위해 쓰이는 전자 타이머이다. <br>
+흔히 Windows의 Blue Screen을 예로 들 수 있다.
 
 컴퓨터가 정상 작동할 때, 시간 경과 혹은 `타임아웃`이 되는 것을 막기 위해 정기적으로 워치독 타이머를 재가동 시킨다. <br>
 만약 하드웨어의 결함, 프로그램 오류 등 여러 이슈로 컴퓨터가 워치독을 재가동하는 데 실패하면, 타이머가 시간을 두고 타임 아웃 신호를 생성한다.<br>
@@ -39,6 +40,7 @@ tags: [Programming, CS, EmbeddedSystem]
 <p align="center">
   <img src="../../../assets/img/blog/computer_science/watchdog_3stage.gif">
 </p>
+
 	- 둘 또는 그 이상의 타이머들을 차례로 이어서 붙여 사용할 수 있다. 이떄 각 타이머는 `타이머 단계` 혹은 `단계`로 불린다. <br>
 &emsp;&emsp; 다단계 워치독에서 오직 제 1단계만 프로세서에 의해 실행되고, 타임아웃시 시정 조치가 취해진다. <br>
 &emsp;&emsp; 이후 다단계의 다음 단계가 시작되며 각 후속 단계가 타임아웃되면 시정 조치가 수행되고 다음 단계가 실행된다. <br>
@@ -54,6 +56,7 @@ tags: [Programming, CS, EmbeddedSystem]
 <p align="center">
   <img src="../../../assets/img/blog/computer_science/watchdog_nmi_reset.gif">
 </p>
+
 > `프로세서 리셋`, `차단 불가능 인터럽트`, `차단 가능 인터럽트`, `전원 껐다 켜기`, `안전모드 상태 활성화` 또는 이들의 조합을 포함하는 몇 가지 유형이 존재한다. <br>
 워치독 타이머는 종종 오류 복구시 유용할 수 있는 시스템 상태정보 혹은 디버그 정보를 영구 저장매체에 기록할 때 사용한다.
 
