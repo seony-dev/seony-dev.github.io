@@ -8,7 +8,7 @@ tags: [Programming, Software Engineering]
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/software_engineering/integration_test.png>
+  <img src="../../../assets/img/blog/software_engineering/integration_test.png" />
 </p>
 
 -----
