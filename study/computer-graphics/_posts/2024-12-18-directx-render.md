@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "[Computer Graphics] C++로 Windows 창 생성 및 열기"
+title:  "[Computer Graphics] 윈도우 창에 선(Line) 그리기"
 description: >
-  - Window 창 생성 및 열기 정리.
 hide_last_modified: true
 categories: [study, computer-graphics]
 tags: [Programming, ComputerGraphics]
