@@ -5,6 +5,7 @@ description: >
 hide_last_modified: true
 categories: [study, os]
 tags: [Programming, OS]
+comments: true
 ---
 
 <p align="center">

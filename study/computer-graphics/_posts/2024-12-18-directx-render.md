@@ -5,6 +5,7 @@ description: >
 hide_last_modified: true
 categories: [study, computer-graphics]
 tags: [Programming, ComputerGraphics]
+comments: true
 ---
 
 <p align="center">

@@ -4,6 +4,7 @@ title:  "[Unity] 키 프레임 애니메이션(Key Frame Animation)"
 description: >
 hide_last_modified: true
 categories: [game-developments, unity]
+comments: true
 ---
 
 <p align="center">

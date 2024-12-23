@@ -5,6 +5,7 @@ description: >
 hide_last_modified: true
 categories: [study, computer-science]
 tags: [Programming, CS, EmbeddedSystem]
+comments: true
 ---
 
 <p align="center">

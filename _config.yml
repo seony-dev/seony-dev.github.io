@@ -458,3 +458,8 @@ analytics:
   google:
     tracking_id          : "G-XVFZ748MDY"
     anonymize_ip         : # true, false (default)
+    
+#disqus
+disqus:
+  comments : true
+  shortname: 'seony-dev'

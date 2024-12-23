@@ -5,6 +5,7 @@ description: >
 hide_last_modified: true
 categories: [game-developments, unreal]
 tags: ["게임 개발", "unreal"]
+comments: true
 ---
 
 <p align="center">
