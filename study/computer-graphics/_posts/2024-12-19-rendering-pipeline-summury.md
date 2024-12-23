@@ -20,13 +20,9 @@ comments: true
 
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/rendering_pipeline_summury1.png" style="width: 832px; height: auto;" />
+  <img src="../../../assets/img/blog/computer_graphics/rendering_summury1.png" style="width: 832px; height: auto;" />
 </p>
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/rendering_pipeline_summury2.png" style="width: 832px; height: auto;" />
-</p>
-
-<p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/rendering_pipeline_summury3.png" style="width: 832px; height: auto;" />
+  <img src="../../../assets/img/blog/computer_graphics/rendering_summury4.png" style="width: 832px; height: auto;" />
 </p>
