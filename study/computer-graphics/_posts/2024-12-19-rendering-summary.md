@@ -2,7 +2,6 @@
 layout: post
 title:  "[Computer Graphics] 윈도우 창에 선(Line) 그리기 - 렌더링 관련 정리"
 description: >
-2024.12.19 ~ 12.24 학습 내용 정리
 hide_last_modified: true
 categories: [study, computer-graphics]
 tags: [Programming, ComputerGraphics]
