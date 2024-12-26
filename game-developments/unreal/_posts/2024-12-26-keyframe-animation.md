@@ -36,12 +36,12 @@ comments: true
 <br>
 ★ 트리형태로 이루어져 있음. (부모 자식간의 **상대적 간격** 존재) <br>
 
-**root (Actor)** : root motion으로 설정할 경우, root에서 Start. (루트 모션이 있는 애니메이션 사용할 시, 이동함.)
-&emsp;ㄴpelvis : 본래 애니메이션은 pelvis에서 Start
-&emsp;&emsp;ㄴspine_01
-&emsp;&emsp;&emsp;ㄴspine_02
-&emsp;&emsp;&emsp;&emsp;ㄴclavicle_l
-&emsp;&emsp;&emsp;&emsp;&emsp;ㄴupperarm_l
+**root (Actor)** : root motion으로 설정할 경우, root에서 Start. (루트 모션이 있는 애니메이션 사용할 시, 이동함.) <br>
+&emsp;ㄴpelvis : 본래 애니메이션은 pelvis에서 Start <br>
+&emsp;&emsp;ㄴspine_01 <br>
+&emsp;&emsp;&emsp;ㄴspine_02 <br>
+&emsp;&emsp;&emsp;&emsp;ㄴclavicle_l <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;ㄴupperarm_l <br>
 
 [Animation]
 <br>
