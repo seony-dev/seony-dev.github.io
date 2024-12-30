@@ -462,4 +462,4 @@ analytics:
     anonymize_ip         : # true, false (default)
     
 #disqus
-disqus: <disqus seony-dev>
+disqus: seony-dev
