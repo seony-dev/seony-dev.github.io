@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[Unity] 키 프레임 애니메이션(Key Frame Animation)"
+title:  "[Unreal] 키 프레임 애니메이션(Key Frame Animation)"
 description: >
 hide_last_modified: true
-categories: [game-developments, unity]
+categories: [game-developments, unreal]
 comments: true
 ---
 
@@ -30,8 +30,28 @@ comments: true
 
 -----
 
-#### Unity
+#### Unreal
 
+[Skeleton]
+<br>
+★ 트리형태로 이루어져 있음. (부모 자식간의 **상대적 간격** 존재) <br>
+
+**root (Actor)** : root motion으로 설정할 경우, root에서 Start. (루트 모션이 있는 애니메이션 사용할 시, 이동함.) <br>
+&emsp;ㄴpelvis : 본래 애니메이션은 pelvis에서 Start <br>
+&emsp;&emsp;ㄴspine_01 <br>
+&emsp;&emsp;&emsp;ㄴspine_02 <br>
+&emsp;&emsp;&emsp;&emsp;ㄴclavicle_l <br>
+&emsp;&emsp;&emsp;&emsp;&emsp;ㄴupperarm_l <br>
+
+[Animation]
+<br>
+★ 테이블로 이루어져 있음. (스켈레톤과 상관 관계) 
+<br>
+
+**[키 프레임]**
+<br>
+- 한 프레임마다 움직임이 Transform으로 기록됨. 
+  - 변화량 기록
 
 
 -----

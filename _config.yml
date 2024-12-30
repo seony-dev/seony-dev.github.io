@@ -66,6 +66,8 @@ menu:
           url:         /c-sharp/
         - title:       Coding Test
           url:         /coding-test/
+        - title:       Math
+          url:         /math/
   
   - title:             Game Developments
     url:               /game-developments/
