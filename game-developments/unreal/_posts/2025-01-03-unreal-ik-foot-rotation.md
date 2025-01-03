@@ -8,8 +8,10 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/unity/keyframe_animation.jpg" style="width: 832px; height: auto" />
+  <img src="../../../assets/img/blog/unreal/foot_ik.png" style="width: 832px; height: auto" />
 </p>
+<br>
+<span style="color:darkgray; font-size:14px;"> 이미지 출처 : https://forums.unrealengine.com/t/ik-feet-placement-setup-new-blog/78508</span> <br>
 
 -----
 
