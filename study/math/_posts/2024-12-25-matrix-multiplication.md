@@ -22,4 +22,6 @@ comments: true
 ---- 
 <span style="color:darkgray; font-size:14px;"> 출처 : <br>
 ＊ https://en.wikipedia.org/wiki/Matrix_multiplication <br>
+＊ [행렬 곱셈의 성질](https://ko.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:properties-of-matrix-multiplication/a/properties-of-matrix-multiplication) <br>
+
 </span>
