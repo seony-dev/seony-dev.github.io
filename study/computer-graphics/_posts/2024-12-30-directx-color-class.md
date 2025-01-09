@@ -8,6 +8,60 @@ tags: [Programming, ComputerGraphics]
 comments: true
 ---
 
+#### 📼 `D3DCOLOR`란?
+> 32비트의 DWORD(Unsinged Long)형 기본 Direct3D 색 형식. <br><br>
+※ 범위 : 2^8 = 0 ~ 255 
+
+```cpp
+typedef DWORD D3DCOLOR;
+```
+---
+#### 📼 D3DCOLOR 주요 매크로 <br>
+
+* D3DCOLOR_COLORVALUE : RGBA 부동 소수점(`float`) 값으로 색을 초기화. <br>
+```cpp
+D3DCOLOR D3DCOLOR_COLORVALUE(
+   float r,
+   float g,
+   float b,
+   float a
+);
+```
+
+* D3DCOLOR_RGBA : RGBA 값(`int`)으로 색을 초기화. <br>
+R(8Bit), G(8Bit), B(8Bit), A(8Bit) <br><br>
+```cpp
+D3DCOLOR D3DCOLOR_RGBA(
+   int r,
+   int g,
+   int b,
+   int a
+);
+```
+
+* D3DCOLOR_ARGB : ARGB 값(`int`)으로 색을 초기화. <br>
+A(8Bit), R(8Bit), G(8Bit), B(8Bit) <br><br>
+```cpp
+D3DCOLOR D3DCOLOR_ARGB(
+   int a,
+   int r,
+   int g,
+   int b
+);
+```
+* D3DCOLOR_XRGB : A(Alpha)를 제외한 RGB 값(`int`)으로 색을 초기화. <br><br>
+```cpp
+D3DCOLOR D3DCOLOR_XRGB(
+   int r,
+   int g,
+   int b
+);
+```
+
+---
+
+#### 📼 새로 정의한 Color class 주요 메서드
+
 ```cpp
 Color::Color(UINT rgba)
 {
