@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] 인스턴싱(Instancing)
+title:  "[Computer Graphics] 인스턴싱(Instancing)"
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]
