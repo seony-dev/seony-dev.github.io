@@ -12,6 +12,7 @@ comments: true
 </p>
 <span style="color:darkgray; font-size:14px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ▲ Vertex Instancing </span>
 <br>
+
 ---
 
 #### 📼 Instancing란?
@@ -24,5 +25,3 @@ comments: true
 <p align="center">
   <img src="../../../assets/img/blog/computer_graphics/instancing.jpg" style="width: 832px; height: auto;" />
 </p>
-
-https://blog.nullbus.net/82
