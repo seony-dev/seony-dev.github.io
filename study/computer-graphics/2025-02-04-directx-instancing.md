@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] View Matrix(뷰 행렬)"
+title:  "[Computer Graphics] 인스턴싱(Instancing)
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]
@@ -11,8 +11,7 @@ comments: true
   <img src="../../../assets/img/blog/computer_graphics/instancing_vertex.png" style="width: 832px; height: auto;" />
 </p>
 <span style="color:darkgray; font-size:14px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ▲ Vertex Instancing </span>
-
-
+<br>
 ---
 
 #### 📼 Instancing란?
