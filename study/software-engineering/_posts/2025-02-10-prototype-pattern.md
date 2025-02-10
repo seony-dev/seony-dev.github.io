@@ -44,14 +44,16 @@ tags: [Programming, Software Engineering]
 #include <stdio.h>
 using namespace std; 
 
-class Prototype {
+class Prototype 
+{
 public:
     virtual Prototype* clone() const = 0; //복제 메서드 '선언'
     virtual void show() const = 0; //객체 정보 출력 
     virtual ~Prototype() {}
 };
 
-class ConcretePrototype : public Prototype {
+class ConcretePrototype : public Prototype 
+{
 private:
     int value; 
 public:
@@ -59,16 +61,19 @@ public:
      : value(val) {} //생성자 - 멤버 변수 초기화
     
     //복제 메서드 '구현' - 깊은 복사
-    ConcretePrototype* clone() const override {
+    ConcretePrototype* clone() const override 
+    {
         return new ConcretePrototype(*this);
     }
     
-    void show() const override {
+    void show() const override 
+    {
         printf("ConcretePrototype's value = %d", value);
     }
 };
 
-int main() {
+int main() 
+{
     
     //원본 객체 생성
     ConcretePrototype* obj1 = new ConcretePrototype(42);
