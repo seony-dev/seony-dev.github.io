@@ -16,12 +16,25 @@ comments: true
 ----
 #### 📈 행렬 곱셈식
 
+> 행렬의 곱셈에서, 곱한 행렬의 각 성분은 첫 번째 행렬의 행과 두 번째 행렬의 열의 내적이다.
+
+$
+\left[
+\begin{array}{ll}
+    1 & 1  \\
+    1 & -1 \\
+\end{array}
+\right]
+$
+
+
+
 ----
 #### 📈 선형 변환
 
 ---- 
 <span style="color:darkgray; font-size:14px;"> 출처 : <br>
 ＊ https://en.wikipedia.org/wiki/Matrix_multiplication <br>
-＊ [행렬 곱셈의 성질](https://ko.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:properties-of-matrix-multiplication/a/properties-of-matrix-multiplication) <br>
+＊ [칸 아카데미 - 7-6. 행렬 곱셈의 성질](https://ko.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:properties-of-matrix-multiplication/a/matrix-multiplication-dimensions) <br>
 
 </span>
