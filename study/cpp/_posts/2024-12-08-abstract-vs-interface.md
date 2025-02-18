@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[C++] 추상 클래스와 인터페이스의 차이"
+title:  "추상 클래스와 인터페이스의 차이"
 description: > 
 hide_last_modified: true
 categories: [study, cpp]

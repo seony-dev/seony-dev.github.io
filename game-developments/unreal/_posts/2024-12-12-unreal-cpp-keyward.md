@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Unreal C++] 주요 키워드 정리"
+title:  "Unreal C++ 주요 키워드 정리"
 description: >
 hide_last_modified: true
 categories: [game-developments, unreal]

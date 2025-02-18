@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] 통합 테스트(Integration Test)"
+title:  "통합 테스트(Integration Test)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

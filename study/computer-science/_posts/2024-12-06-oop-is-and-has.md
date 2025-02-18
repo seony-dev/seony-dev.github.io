@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[CS/OOP] is-a와 has-a"
+title:  "is-a와 has-a"
 description: > 
 hide_last_modified: true
 categories: [study, computer-science]

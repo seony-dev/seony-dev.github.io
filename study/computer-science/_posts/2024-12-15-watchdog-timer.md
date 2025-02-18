@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[CS/Embedded System] 워치독 타이머(Watchdog timer; Computer Operating Properly)"
+title:  "워치독 타이머(Watchdog timer; Computer Operating Properly)"
 description: > 
 hide_last_modified: true
 categories: [study, computer-science]

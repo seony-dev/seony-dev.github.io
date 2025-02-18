@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] TDD (Test-driven development)"
+title:  "TDD (Test-driven development)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

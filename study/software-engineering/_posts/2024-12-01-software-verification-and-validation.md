@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] 소프트웨어 검증 및 확인 (Software Verification and Validation)"
+title:  "소프트웨어 검증 및 확인 (Software Verification and Validation)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

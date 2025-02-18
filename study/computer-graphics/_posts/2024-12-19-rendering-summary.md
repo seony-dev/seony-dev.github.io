@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] 윈도우 창에 선(Line) 그리기 - 렌더링 관련 정리"
+title:  "윈도우 창에 선(Line) 그리기 - 렌더링 관련 정리"
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]

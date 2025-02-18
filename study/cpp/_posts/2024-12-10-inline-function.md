@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[C++] 인라인 함수(inline function)"
+title:  "인라인 함수(inline function)"
 description: > 
 hide_last_modified: true
 categories: [study, cpp]

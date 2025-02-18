@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Unreal] 비헤이비어 트리(Behavior Tree)"
+title:  "비헤이비어 트리(Behavior Tree)"
 description: >
 hide_last_modified: true
 categories: [game-developments, unreal]

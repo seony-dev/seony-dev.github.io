@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[C++] 구조체 패딩(Struct Padding)"
+title:  "구조체 패딩(Struct Padding)"
 description: > 
 hide_last_modified: true
 categories: [study, cpp]

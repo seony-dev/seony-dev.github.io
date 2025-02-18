@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] 백 페이스 컬링(Back-face Culling)"
+title:  "백 페이스 컬링(Back-face Culling)"
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]

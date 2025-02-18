@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] 트랜스폼(Transform), 애니메이션(Animation)"
+title:  "트랜스폼(Transform), 애니메이션(Animation)"
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]

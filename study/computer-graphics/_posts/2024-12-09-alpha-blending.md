@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] 알파 블렌딩(Alpha Blending)"
+title:  "알파 블렌딩(Alpha Blending)"
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]

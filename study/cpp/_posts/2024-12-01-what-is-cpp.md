@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[C++] C++ 이론 정리"
+title:  "C++ 이론 정리"
 description: > 
 hide_last_modified: true
 categories: [study, cpp]

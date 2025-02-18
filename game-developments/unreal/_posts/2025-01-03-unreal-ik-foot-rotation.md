@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Unreal] IK - Foot Rotation(발의 회전)"
+title:  "IK - Foot Rotation(발의 회전)"
 description: >
 hide_last_modified: true
 categories: [game-developments, unreal]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[OS] 인터럽트(interrupt)"
+title:  "인터럽트(interrupt)"
 description: >
 hide_last_modified: true
 categories: [study, os]

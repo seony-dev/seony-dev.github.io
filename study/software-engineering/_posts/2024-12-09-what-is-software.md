@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] 소프트웨어의 정의와 특징"
+title:  "소프트웨어의 정의와 특징"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

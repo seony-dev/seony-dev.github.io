@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] C++로 Windows 창 생성 및 열기"
+title:  "C++로 Windows 창 생성 및 열기"
 description: >
   - Window 창 생성 및 열기 정리.
 hide_last_modified: true

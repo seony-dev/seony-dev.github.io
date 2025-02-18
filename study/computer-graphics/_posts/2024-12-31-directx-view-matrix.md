@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] View Matrix(뷰 행렬)"
+title:  "View Matrix(뷰 행렬)"
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]

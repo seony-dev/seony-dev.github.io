@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] 코드 스멜 (code smell)"
+title:  "코드 스멜 (code smell)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

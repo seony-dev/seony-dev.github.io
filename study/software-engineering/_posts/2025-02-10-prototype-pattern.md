@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] 프로토타입 패턴(Prototype Pattern)"
+title:  "프로토타입 패턴(Prototype Pattern)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

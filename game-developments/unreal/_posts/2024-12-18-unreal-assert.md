@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Unreal] Assert(어서트)"
+title:  "Unreal Assert(어서트)"
 description: >
 hide_last_modified: true
 categories: [game-developments, unreal]

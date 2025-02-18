@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] 애자일 소프트웨어 개발 (Agile Software Development)"
+title:  "애자일 소프트웨어 개발 (Agile Software Development)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Software Engineering] CBD (Component-based development)"
+title:  "CBD (Component-based development)"
 description: >
 hide_last_modified: true
 categories: [study, software-engineering]

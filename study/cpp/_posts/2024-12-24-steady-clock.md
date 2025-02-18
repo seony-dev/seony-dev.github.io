@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[C++] steady_clock 구조체(struct)"
+title:  "steady_clock 구조체(struct)"
 description: > 
 hide_last_modified: true
 categories: [study, cpp]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Computer Graphics] Color 클래스 메서드 정리"
+title:  "Color 클래스 메서드 정리"
 description: >
 hide_last_modified: true
 categories: [study, computer-graphics]
