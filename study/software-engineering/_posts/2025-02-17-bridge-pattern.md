@@ -3,13 +3,13 @@ layout: post
 title:  "브릿지 패턴(Bridge Pattern)"
 description: > 
 hide_last_modified: true
-categories: [study, computer-science]
-tags: [Programming, CS, DesignPattern]
+categories: [study, software-engineering]
+tags: [Programming, Software Engineering]
 comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/bridge-pattern.png" style="width: 832px; height: auto;" />
+  <img src="../../../assets/img/blog/software_engineering/bridge-pattern.png" style="width: 832px; height: auto;" />
 </p>
 -----
 

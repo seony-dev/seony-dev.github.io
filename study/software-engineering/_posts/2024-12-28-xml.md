@@ -5,6 +5,7 @@ description: >
 hide_last_modified: true
 categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
+comments: true
 ---
 
 <p align="center">
