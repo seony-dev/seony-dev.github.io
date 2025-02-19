@@ -172,3 +172,7 @@ Instagram: 당장 전기장판 위에 누워서 푹 쉬십시오.
 - `send` 메서드 호출 : 이메일, SMS, 인스타그램 알림이 순차적으로 전송 완료.
 
 ----
+<span style="color:darkgray">출처 : <br>
+＊ https://en.wikipedia.org/wiki/Decorator_pattern <br>
+＊ https://refactoring.guru/ko/design-patterns/decorator <br>
+</span>

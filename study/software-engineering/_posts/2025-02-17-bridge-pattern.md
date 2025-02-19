@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "브릿지 패턴(Bridge Pattern)"
-description: > 
+description: >
 hide_last_modified: true
 categories: [study, software-engineering]
 tags: [Programming, Software Engineering]
@@ -15,99 +15,157 @@ comments: true
 
 <span style="color:darkgray; font-size:13px;">이미지 출처 : https://refactoring.guru/ko/design-patterns/bridge </span>
 
-
 -----
-#### 🖥️ 브릿지 패턴(Bridge Pattern)란?
-> 소프트웨어 공학에서 추상화와 구현을 분리하여 독립적으로 변형할 수 있도록 하는 구조적 디자인 패턴.
+#### 🖥️ 브릿지 패턴(Bridge Pattern)이란?
+> 추상화와 구현을 분리하여 독립적으로 변형할 수 있도록 하는 구조적 디자인 패턴.
+<br>이는 **하나의 계층을 변경해도 다른 계층에 영향을 주지 않도록 설계하여 유연성을 극대화함.**
 
 ----
-#### 🖥️ 브릿지 패턴(Bridge Pattern) 구조
+#### 🖥️ 브릿지 패턴을 사용하는 이유
+<br>
 
-- Abstraction(추상화): 상위 수준의 제어를 담당하며, Implementor 객체에 작업 위임.
-- Implementor(구현자): Abstraction이 사용하는 인터페이스를 정의.
-- RefinedAbstraction(정제된 추상화): Abstraction의 확장으로, 구체적인 구현 제공.
-- ConcreteImplementor(구체적인 구현자): Implementor 인터페이스를 실제로 구현.
+**⚠ 상속을 통한 기능 확장의 문제점** <br>
+
+1. 추상화(Abstraction)와 구현(Implementation)이 강하게 결합되면 **확장성이 떨어짐**.
+2. 새로운 기능을 추가할 때 **기존 클래스를 수정해야 하는 문제 발생**.
+3. **유지보수와 코드 재사용이 어려워짐**.
+
+<br>
+
+ex) 그래픽 시스템에서 다양한 도형과 렌더링 방식이 존재하는 경우
+
+| 조합 | 필요 클래스 |
+|------|------------|
+| 원형 + API1 | `CircleWithAPI1` |
+| 원형 + API2 | `CircleWithAPI2` |
+| 사각형 + API1 | `RectangleWithAPI1` |
+| 사각형 + API2 | `RectangleWithAPI2` |
+| 원형 + API3 | `CircleWithAPI3` |
+| 사각형 + API3 | `RectangleWithAPI3` |
+| 새로운 도형 추가 시 | **모든 API 조합 클래스를 추가해야 함** |
+
+**✅ 해결방안**<br>
+위처럼 상속 기반의 확장 문제를 해결하기 위해 **`브릿지 패턴`**을 사용.
+
+> 브릿지 패턴은 추상화 계층과 구현 계층을 **분리하여 독립적으로 확장 가능**.<br>
+기존 코드 수정 없이 새로운 기능을 추가할 수 있음.
 
 ----
-#### 🖥️ 브릿지 패턴(Bridge Pattern) 예시 코드
+#### 🖥️ 브릿지 패턴의 구성 요소
+
+| **구성 요소**            | **설명** |
+|-------------------------|----------|
+| **Abstraction (추상화)** | 상위 수준의 제어를 담당하며, `Implementor` 객체에 작업을 위임. |
+| **RefinedAbstraction (정제된 추상화)** | `Abstraction`의 확장으로, 구체적인 기능을 추가하는 클래스. |
+| **Implementor (구현자)** | `Abstraction`이 사용하는 인터페이스를 정의. |
+| **ConcreteImplementor (구체적인 구현자)** | `Implementor` 인터페이스를 실제로 구현하는 클래스. |
+
+----
+
+### 🖥️ 브릿지 패턴(Bridge Pattern) 예시 코드
 
 **C++ 예시**
 
 ```cpp
-#include <iostream>
-#include <memory>
+#include <stdio.h>
 
-//Implementor 인터페이스
-class DrawingAPI {
+//구현을 위한 인터페이스 정의 - * Implementor (구현자)
+class DrawingAPI 
+{
 public:
     virtual void drawCircle(double x, double y, double radius) = 0;
-    virtual ~DrawingAPI() = default;
+    virtual ~DrawingAPI() {}
 };
 
-//ConcreteImplementor 1
-class DrawingAPI1 : public DrawingAPI {
+//구현 클래스 1 - * ConcreteImplementor (구체적인 구현자)
+class DrawingAPI1 : public DrawingAPI 
+{
 public:
-    void drawCircle(double x, double y, double radius) override {
-        std::cout << "API1.circle at (" << x << ", " << y << ") radius " << radius << std::endl;
+    void drawCircle(double x, double y, double radius) override 
+    {
+        printf("API1.circle at (%.1f, %.1f) radius %.1f\n", x, y, radius);
     }
 };
 
-//ConcreteImplementor 2
-class DrawingAPI2 : public DrawingAPI {
+//구현 클래스 2 - * ConcreteImplementor (구체적인 구현자)
+class DrawingAPI2 : public DrawingAPI 
+{
 public:
-    void drawCircle(double x, double y, double radius) override {
-        std::cout << "API2.circle at (" << x << ", " << y << ") radius " << radius << std::endl;
+    void drawCircle(double x, double y, double radius) override 
+    {
+        printf("API2.circle at (%.1f, %.1f) radius %.1f\n", x, y, radius);
     }
 };
 
-//Abstraction
-class Shape {
+//도형의 추상 클래스 - * Abstraction (추상화)
+class Shape 
+{
+protected:
+    DrawingAPI* drawingAPI;
+
 public:
+    Shape(DrawingAPI* api) : drawingAPI(api) {}
     virtual void draw() = 0;
     virtual void resizeByPercentage(double pct) = 0;
-    virtual ~Shape() = default;
+    virtual ~Shape() {}
 };
 
-//RefinedAbstraction
-class CircleShape : public Shape {
-public:
-    CircleShape(double x, double y, double radius, std::shared_ptr<DrawingAPI> drawingAPI)
-        : x_(x), y_(y), radius_(radius), drawingAPI_(drawingAPI) {}
-
-    void draw() override {
-        drawingAPI_->drawCircle(x_, y_, radius_);
-    }
-
-    void resizeByPercentage(double pct) override {
-        radius_ *= pct;
-    }
-
+//원형 도형 클래스 - * Refined Abstraction (정제된 추상화)
+class CircleShape : public Shape 
+{
 private:
-    double x_, y_, radius_;
-    std::shared_ptr<DrawingAPI> drawingAPI_;
+    double x, y, radius;
+
+public:
+    CircleShape(double x, double y, double radius, DrawingAPI* api)
+        : Shape(api), x(x), y(y), radius(radius) {}
+
+    void draw() override 
+    {
+        drawingAPI->drawCircle(x, y, radius);
+    }
+
+    void resizeByPercentage(double pct) override 
+    {
+        radius *= pct;
+    }
 };
 
-int main() {
-    std::shared_ptr<Shape> circle1 = std::make_shared<CircleShape>(1, 2, 3, std::make_shared<DrawingAPI1>());
-    std::shared_ptr<Shape> circle2 = std::make_shared<CircleShape>(5, 7, 11, std::make_shared<DrawingAPI2>());
+int main() 
+{
+    //원 객체 생성
+    Shape* circle1 = new CircleShape(1, 2, 3, new DrawingAPI1());
+    Shape* circle2 = new CircleShape(5, 7, 11, new DrawingAPI2());
 
+    //도형 그리기
     circle1->draw();
     circle2->draw();
 
+    //최종 객체들 삭제 - 메모리 릭 방지
+    delete circle1;
+    delete circle2;
+
     return 0;
 }
-
 ```
 
-##### 출력 결과
+**출력 결과**
 
-```cpp
-API1.circle at (1, 2) radius 3
-API2.circle at (5, 7) radius 11
 ```
-> **출력 설명**
-<br>circle1 객체는 DrawingAPI1을 사용하므로 "API1.circle at (1, 2) radius 3"이 출력됨.
-<br>circle2 객체는 DrawingAPI2을 사용하므로 "API2.circle at (5, 7) radius 11"이 출력됨.
-<br>이처럼 브리지 패턴을 활용하면, Shape 클래스 계층과 DrawingAPI 클래스 계층을 독립적으로 확장할 수 있어 유지보수가 용이해짐.
-<br>
-<br> 💡 Tip : 새로운 DrawingAPI3을 추가하더라도 기존 Shape 클래스들을 변경할 필요 없이 새로운 구현을 사용할 수 있음.
+API1.circle at (1.0, 2.0) radius 3.0
+API2.circle at (5.0, 7.0) radius 11.0
+```
+
+**설명**
+
+- `Shape` 클래스는 `DrawingAPI`를 활용하여 도형을 그리는 역할을 수행.
+- `CircleShape`는 `Shape`를 상속받아 원형을 구현하며, `DrawingAPI` 객체를 통해 실제 그림을 그림.
+- `main()`에서 `CircleShape`를 생성하여 **다양한 구현(API1, API2)과 독립적으로 결합 가능**.
+- **새로운 DrawingAPI 추가 시 기존 `Shape` 클래스를 수정할 필요 없음**.
+
+----
+<span style="color:darkgray">출처 : <br>
+＊ https://en.wikipedia.org/wiki/Bridge_pattern <br>
+＊ https://refactoring.guru/ko/design-patterns/bridge <br>
+</span>
+
