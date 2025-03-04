@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/db/database.png" style="width: 832px; height: auto;" />
+  <img src="/assets/img/blog/db/database.png" style="width: 832px; height: auto;" />
 </p>
 
 ----
