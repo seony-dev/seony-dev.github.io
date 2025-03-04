@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/oop.png">
+  <img src="/assets/img/blog/computer_science/oop.png">
 </p>
 
 -----

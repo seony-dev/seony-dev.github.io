@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/software_engineering/codesmell.jpg">
+  <img src="/assets/img/blog/software_engineering/codesmell.jpg">
 </p>
 
 ----

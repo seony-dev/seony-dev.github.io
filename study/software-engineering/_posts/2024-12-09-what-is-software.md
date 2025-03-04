@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/software_engineering/what_is_software.png">
+  <img src="/assets/img/blog/software_engineering/what_is_software.png">
 </p>
 
 -----

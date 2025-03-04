@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/os/interrupt.png" alt="프로그램 실행 중 'E'키를 눌러서 중단시켜보자^_^ㅋㅋ" >
+  <img src="/assets/img/blog/os/interrupt.png" alt="프로그램 실행 중 'E'키를 눌러서 중단시켜보자^_^ㅋㅋ" >
 </p>
 ----
 

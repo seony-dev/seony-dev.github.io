@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/software_engineering/prototype_thumbnail.png" style="width: 580px; height: auto;" />
+  <img src="/assets/img/blog/software_engineering/prototype_thumbnail.png" style="width: 580px; height: auto;" />
 </p>
 
 ----

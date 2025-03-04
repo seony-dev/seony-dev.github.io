@@ -10,7 +10,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/window_line.png" style="width: 832px; height: auto;" >
+  <img src="/assets/img/blog/computer_graphics/window_line.png" style="width: 832px; height: auto;" >
 </p>
 
 <!-- <span style="color:darkgray; font-size:14px;"> 이미지 출처 : </span> -->

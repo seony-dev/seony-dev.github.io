@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/software_engineering/cbd_process.png">
+  <img src="/assets/img/blog/software_engineering/cbd_process.png">
 </p>
 
 -----

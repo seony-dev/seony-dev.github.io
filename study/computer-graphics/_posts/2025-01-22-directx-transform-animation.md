@@ -13,12 +13,12 @@ comments: true
 #### 📼 Transform 정리
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/transform_summury.png" style="width: 832px; height: auto;" />
+  <img src="/assets/img/blog/computer_graphics/transform_summury.png" style="width: 832px; height: auto;" />
 </p>
 
 ---
 
 #### 📼 Animation 정리
 <p align="center">
-  <img src="../../../assets/img/blog/computer_graphics/animation_summury.png" style="width: 832px; height: auto;" />
+  <img src="/assets/img/blog/computer_graphics/animation_summury.png" style="width: 832px; height: auto;" />
 </p>

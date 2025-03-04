@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/blue_screen.png" style="width: 832px; height: auto;" />
+  <img src="/assets/img/blog/computer_science/blue_screen.png" style="width: 832px; height: auto;" />
 </p>
 
 -----
@@ -31,7 +31,7 @@ comments: true
 
 2. 단단계 워치독
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/simple_watchdog_timer.gif">
+  <img src="/assets/img/blog/computer_science/simple_watchdog_timer.gif">
 </p>
 	- 통합된 온칩 워치독을 주로 말하며, 대표적으로 `마이크로 컨트롤러`가 있다. <br>
 &emsp;&emsp; 다른 컴퓨터에서 워치독은 CPU에 직접 연결된 가까운 칩에 있을 수도 있고, 외부 확장 카드에 위치할 수도 있는데, 워치독과 CPU는 일반적으로 클릭 신호를 공유할 수 있고, 독립적인 클럭 신호들을 가지고 있을 수도 있다.	
@@ -39,7 +39,7 @@ comments: true
 
 3. 다단계 워치독
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/watchdog_3stage.gif">
+  <img src="/assets/img/blog/computer_science/watchdog_3stage.gif">
 </p>
 
 	- 둘 또는 그 이상의 타이머들을 차례로 이어서 붙여 사용할 수 있다. 이떄 각 타이머는 `타이머 단계` 혹은 `단계`로 불린다. <br>
@@ -55,7 +55,7 @@ comments: true
 ----
 #### 🖥️ 시정 조치
 <p align="center">
-  <img src="../../../assets/img/blog/computer_science/watchdog_nmi_reset.gif">
+  <img src="/assets/img/blog/computer_science/watchdog_nmi_reset.gif">
 </p>
 
 > `프로세서 리셋`, `차단 불가능 인터럽트`, `차단 가능 인터럽트`, `전원 껐다 켜기`, `안전모드 상태 활성화` 또는 이들의 조합을 포함하는 몇 가지 유형이 존재한다. <br>
