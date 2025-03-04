@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/unreal/unreal_img.png"/>
+  <img src="/assets/img/blog/unreal/unreal_img.png"/>
 </p>
 
 ----

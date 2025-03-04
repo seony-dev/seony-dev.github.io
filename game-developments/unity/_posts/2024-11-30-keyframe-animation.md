@@ -8,7 +8,7 @@ comments: true
 ---
 
 <p align="center">
-  <img src="../../../assets/img/blog/unity/keyframe_animation.jpg" style="width: 832px; height: auto" />
+  <img src="/assets/img/blog/unity/keyframe_animation.jpg" style="width: 832px; height: auto" />
 </p>
 
 -----
