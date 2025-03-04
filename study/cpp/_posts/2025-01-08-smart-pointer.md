@@ -4,7 +4,7 @@ title: "C++ 스마트 포인터 (Smart Pointer) 정리"
 description: >  
 hide_last_modified: true  
 categories: [study, cpp]  
-tags: [Programming, C++, SmartPointer, MemoryManagement]  
+tags: [Programming, C++, Smart Pointer, Memory Management]  
 comments: true  
 ---  
 
@@ -20,7 +20,6 @@ comments: true
 
 ----  
 #### 🖥️ 스마트 포인터를 사용하는 이유  
-<br>  
 
 **💥 기존 `new` / `delete` 사용의 문제점**  
 1. 동적으로 할당한 메모리를 `delete` 하지 않으면 **메모리 누수 발생**  
