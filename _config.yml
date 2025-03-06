@@ -68,8 +68,6 @@ menu:
           url:         /coding-test/
         - title:       Math
           url:         /math/
-        - title:       Search
-          url:         /search/
   
   - title:             Game Developments
     url:               /game-developments/
