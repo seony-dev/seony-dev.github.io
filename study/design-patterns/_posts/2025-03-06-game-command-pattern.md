@@ -71,24 +71,47 @@ comments: true
 ## 🕹️ 명령 패턴 예제 코드 (C# Unity)
 
 ```csharp
-public interface ICommand {
+public interface ICommand 
+{
     void Execute();
     void Undo();
 }
 
-public class JumpCommand : ICommand {
+public class JumpCommand : ICommand 
+{
     private Player player;
-    public JumpCommand(Player player) { this.player = player; }
-    public void Execute() { player.Jump(); }
-    public void Undo() { player.CancelJump(); }
+
+    public JumpCommand(Player player) 
+    { 
+        this.player = player; 
+    }
+    public void Execute() 
+    { 
+        player.Jump(); 
+    }
+
+    public void Undo() 
+    { 
+        player.CancelJump(); 
+    }
 }
 
-public class InputHandler {
+public class InputHandler 
+{
     private ICommand jumpCommand;
-    public InputHandler(ICommand jump) { jumpCommand = jump; }
-    public void HandleInput() {
-        if (Input.GetKeyDown(KeyCode.Space)) jumpCommand.Execute();
-        if (Input.GetKeyDown(KeyCode.Z)) jumpCommand.Undo();
+
+    public InputHandler(ICommand jump) 
+    { 
+        jumpCommand = jump; 
+    }
+
+    public void HandleInput() 
+    {
+        if (Input.GetKeyDown(KeyCode.Space)) 
+            jumpCommand.Execute();
+            
+        if (Input.GetKeyDown(KeyCode.Z)) 
+            jumpCommand.Undo();
     }
 }
 ```
