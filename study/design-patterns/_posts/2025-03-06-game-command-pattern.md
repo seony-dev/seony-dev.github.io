@@ -13,7 +13,7 @@ comments: true
 </p> --> 
 -----  
 
-<!-- <span style="color:darkgray; font-size:13px;">이미지 출처: /span>  -->
+<span style="color:darkgray; font-size:13px;">이미지 출처: https://unity.com/kr/how-to/use-command-pattern-flexible-and-extensible-game-systems </span>
 
 -----  
 
