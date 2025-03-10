@@ -10,7 +10,7 @@ comments: true
 
 <p align="center">  
   <img src="/assets/img/blog/design_patterns/game_command_pattern.jpg" style="width: 832px; height: auto;" />  
-</p> --> 
+</p>
 -----  
 
 <span style="color:darkgray; font-size:13px;">이미지 출처: https://unity.com/kr/how-to/use-command-pattern-flexible-and-extensible-game-systems </span>
