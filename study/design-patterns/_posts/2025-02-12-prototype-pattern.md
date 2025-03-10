@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "프로토타입 패턴(Prototype Pattern)"
-description: >
+title:  "생성 - 프로토타입 패턴(Prototype Pattern)"
+description: > 
 hide_last_modified: true
-categories: [study, software-engineering]
-tags: [Programming, Software Engineering]
+categories: [study, design-patterns]  
+tags: [Programming, Design Patterns]  
 comments: true
 ---
 

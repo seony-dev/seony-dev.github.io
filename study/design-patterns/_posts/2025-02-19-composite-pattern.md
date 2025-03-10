@@ -1,10 +1,10 @@
 ---  
 layout: post  
-title: "복합체 패턴(Composite Pattern)"  
+title: "구조 - 복합체 패턴(Composite Pattern)"  
 description: >  
 hide_last_modified: true  
-categories: [study, software-engineering]  
-tags: [Programming, Software Engineering]  
+categories: [study, design-patterns]  
+tags: [Programming, Design Patterns]  
 comments: true  
 ---  
 

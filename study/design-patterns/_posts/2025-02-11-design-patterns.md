@@ -3,13 +3,13 @@ layout: post
 title: "디자인 패턴(Design Patterns)"  
 description: >  
 hide_last_modified: true  
-categories: [study, software-engineering]  
-tags: [Programming, Software Engineering]  
+categories: [study, design-patterns]  
+tags: [Programming, Design Patterns]  
 comments: true  
 ---  
 
 <p align="center">  
-  <img src="/assets/img/blog/software_engineering/design-patterns.png" style="width: 832px; height: auto;" />  
+  <img src="/assets/img/blog/design_patterns/design-patterns.png" style="width: 832px; height: auto;" />  
 </p>  
 -----  
 

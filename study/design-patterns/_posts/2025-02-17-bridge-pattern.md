@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "브릿지 패턴(Bridge Pattern)"
+title:  "구조 - 브릿지 패턴(Bridge Pattern)"
 description: >
 hide_last_modified: true
-categories: [study, software-engineering]
-tags: [Programming, Software Engineering]
+categories: [study, design-patterns]  
+tags: [Programming, Design Patterns]  
 comments: true
 ---
 

@@ -58,6 +58,8 @@ menu:
           url:         /computer-science/
         - title:       Software Engineering
           url:         /software-engineering/
+        - title:       Design Patterns
+          url:         /design-patterns/
         - title:       OS
           url:         /os/
         - title:       C++

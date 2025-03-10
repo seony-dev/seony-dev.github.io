@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "데코레이터 패턴(Decorator Pattern)"
+title:  "구조 - 데코레이터 패턴(Decorator Pattern)"
 description: > 
 hide_last_modified: true
-categories: [study, software-engineering]
-tags: [Programming, Software Engineering]
+categories: [study, design-patterns]  
+tags: [Programming, Design Patterns]  
 comments: true
 ---
 
