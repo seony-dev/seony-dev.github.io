@@ -164,7 +164,7 @@ technique11 T0
 
 ---
 #### **결과** <br>
-<img src="/assets/img/blog/computer_graphics/cubemap_apply_ex.png.png" style="width: 832px; height: auto;" />
+<img src="/assets/img/blog/computer_graphics/cubemap_apply_ex.png" style="width: 832px; height: auto;" />
 
 ---
 
