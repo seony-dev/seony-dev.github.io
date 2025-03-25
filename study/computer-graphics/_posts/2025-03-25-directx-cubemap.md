@@ -9,10 +9,10 @@ comments: true
 ---
 
 <p align="center">
-  <img src="/assets/img/blog/computer_graphics/cubemap.png" style="width: 832px; height: auto;" />
+  <img src="/assets/img/blog/computer_graphics/cubemap_demo.jpg" style="width: 832px; height: auto;" />
 </p>
 
-#### 📼 큐브 맵(Cube Map)이란?
+### 📼 큐브 맵(Cube Map)이란?
 
 > 여섯 개의 2D 텍스처로 구성된 정육면체 형태의 텍스처 컬렉션을 의미. <br>
     - 가상의 큐브면을 형성하여 각 면은 월드 축의 방향에 따른 뷰를 나타냄. <br>
@@ -29,15 +29,17 @@ comments: true
 | 양수 Z | 양수 Y 축에 맞춰야 하는 축을 위로 |
 | 음수 Z | 양수 Y 축에 맞춰야 하는 축을 위로 |
 
+<img src="/assets/img/blog/computer_graphics/cubemap_direction_ex.png" style="width: 832px; height: auto;" />
+
 ✅ C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Utilities\bin\x86\DxTex.exe 
 → 해당 실행 파일에서 큐브맵 확인 가능.
 {:.note}
 
-<img src="/assets/img/blog/computer_graphics/cubemap_direction_ex.png" style="width: 832px; height: auto;" />
+---
 
-**DX11-D3DX 유틸리티로 CubeMap 생성 및 렌더링**
+### 📼 DX11-D3DX 유틸리티로 CubeMap 생성 및 렌더링
 
-1. 큐브맵 텍스쳐를 적용할 메시 생성(Sphere, Cube) - SetSphere() / SetCube()
+#### A. 큐브맵 텍스쳐를 적용할 메시 생성(Sphere, Cube) - _SetSphere()_ / _SetCube()_
 
 | **단계** | **Vertex Buffer** | **Index Buffer** |
 | --- | --- | --- |
@@ -49,14 +51,11 @@ comments: true
 
 💥 **IndexBuffer의 데이터 복사 방식은 메시의 정점 구조 및 정점 수 고정 여부에 따라 달라짐.**
 
-- Sphere의 경우 인덱스 개수가 **슬라이스 수**(InSliceCount; 메시의 분할 개수)**에 따라 가변적**이기 때문에 **vector**에 데이터를 누적한 후, **copy()**를 통해 배열로 복사해야함.
-    
-    반면 Cube는 인덱스 개수가 **36개로 고정**되어 있어, **new**를 통해 배열을 생성하면서 동시에 초기화가 가능하므로 별도의 복사 과정이 필요하지 않음.
-    
+- Sphere의 경우 인덱스 개수가 **슬라이스 수**(InSliceCount; 메시의 분할 개수)**에 따라 가변적**이기 때문에 **vector**에 데이터를 누적한 후, **copy()**를 통해 배열로 복사해야함. <br>
+반면 Cube는 인덱스 개수가 **36개로 고정**되어 있어, **new**를 통해 배열을 생성하면서 동시에 초기화가 가능하므로 별도의 복사 과정이 필요하지 않음.
+{:.note}
 
----
-
-1. 큐브맵 생성 - CreateCubeMap()
+#### B. 큐브맵 생성 - _CreateCubeMap()_
 
 - **큐브맵 텍스처 파일 경로 설정** : 사용할 큐브맵 텍스처 파일(**.dds**) 경로 설정.
 - **정점 데이터 설정(큐브, 즉 6면 구성)** : 큐브의 각 면(Front, Back, Top, Bottom, Left, Right)을 기준으로 **vector<Vertex>**에 정점 좌표를 정의.
@@ -65,7 +64,7 @@ comments: true
 - **인덱스 버퍼(Index Buffer) 생성** : **Triangle List**로 6면 × 2삼각형 × 3정점 = **36 인덱스**를 정의하고, **Index Buffer** 생성.
 - **World Transform 설정** : 큐브맵 메시가 그려질 트랜스폼(위치, 회전, 크기)을 정의하는 **World**(Matrix; 4×4 행렬)를 설정.
 
-1. Shader 설정 - CubeMap.fx
+#### C. Shader 설정 - _CubeMap.fx_
 
 - 00_Context.fx - 공통으로 사용할 fx 파일
     
@@ -81,13 +80,12 @@ comments: true
     }
     ```
     
-
 - VertexInput - 메시의 정점 정보
     
     ```cpp
     struct VertexInput
     {
-    		float4 Position : Position;
+    	float4 Position : Position;
     }
     ```
     
@@ -100,8 +98,8 @@ comments: true
     ```cpp
     struct VertexOutput
     {
-    		float4 Position : SV_Position;
-    		float4 oPosition : Position1;
+    	float4 Position : SV_Position;
+    	float4 oPosition : Position1;
     }
     ```
     
@@ -114,12 +112,12 @@ comments: true
     ```cpp
     VertexOutput VS(VertexInput input)
     {
-    		VertexOutput output;
-    		output.oPosition = input.position.xyz;
-    		output.Position = CalcWorldPosition(input.Position); //CalcWorldPosition - 공통에서 정의.
-    		output.Position = CalcViewProjection(output.Position); //CalcViewProjection - 공통에서 정의.
-    		
-    		return output;
+        VertexOutput output;
+        output.oPosition = input.position.xyz;
+        output.Position = CalcWorldPosition(input.Position); 
+        output.Position = CalcViewProjection(output.Position);
+        
+        return output;
     }
     ```
     
@@ -153,19 +151,17 @@ comments: true
     ✅ LinearSampler : 선형 보간 샘플러로, 경계가 부드럽게 보이도록 해줌.
     
 
-1. Technique 설정
+#### D. Technique 설정
     
-    ```cpp
-    technique11 T0 
-    { 
-    	P_VP(P0, VS, PS) 
-    }
-    ```
+```cpp
+technique11 T0 
+{ 
+    P_VP(P0, VS, PS) 
+}
+```
     
-    위에서 작성한 VS, PS를 연결해 렌더링 파이프라인을 구성.
-    
-    ---
-    
+위에서 작성한 VS, PS를 연결해 렌더링 파이프라인을 구성.
+
 ---
 #### **결과** <br>
 <img src="/assets/img/blog/computer_graphics/cubemap_apply_ex.png.png" style="width: 832px; height: auto;" />
