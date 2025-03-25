@@ -144,9 +144,9 @@ comments: true
     }
     ```
     
-     ★ SV_Target(화면 버퍼에 출력될 픽셀 색상)
+    ★ SV_Target(화면 버퍼에 출력될 픽셀 색상)
     
-    - PS에서 입력된 방향 벡터(oPosition)를 기반으로 CubeMap 텍스처에서 색상을 ✅LinearSampler로 샘플링.=
+    - PS에서 입력된 방향 벡터(oPosition)를 기반으로 CubeMap 텍스처에서 색상을 LinearSampler로 샘플링.
     
     ✅ LinearSampler : 선형 보간 샘플러로, 경계가 부드럽게 보이도록 해줌.
     
