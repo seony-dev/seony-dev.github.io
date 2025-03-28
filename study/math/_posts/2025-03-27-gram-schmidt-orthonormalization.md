@@ -10,7 +10,7 @@ comments: true
 ---
 
 <p align="center">  
-  <img src="/assets/img/blog/math/gram_schmidt.jpg" style="width: 832px; height: auto;" />  
+  <img src="/assets/img/blog/math/gram_schmidt_process.png" style="width: 832px; height: auto;" />  
 </p>  
 -----  
 
@@ -26,9 +26,9 @@ comments: true
 
 ----  
 
-### 📈 왜 필요한가?
+### 📈 그람-슈미트 정규직교화가 필요한 이유
 
-**💡 기존 벡터 집합의 문제점**
+**🚫 기존 벡터 집합의 문제점**
 1. 선형 독립이지만 서로 직교하지 않음 → 계산 불편
 2. 벡터 정규화가 필요하지만 단순 정규화만으론 기저가 아님
 3. 직교성 + 단위 벡터 → 계산 최적화 및 안정성 확보
