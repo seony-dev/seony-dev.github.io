@@ -40,13 +40,13 @@ comments: true
 
 ### 📈 과정 설명
 
-주어진 벡터 집합 \( \{v_1, v_2, ..., v_n\} \)에서 정규직교 기저 \( \{u_1, u_2, ..., u_n\} \)을 구성하는 단계:
+주어진 벡터 집합 $ \{v_1, v_2, \dots, v_n\} $ 에서 정규직교 기저 $ \{u_1, u_2, \dots, u_n\} $ 을 구성하는 단계:
 
-1. \( u_1 = \frac{v_1}{\|v_1\|} \)
-2. \( u_2' = v_2 - \text{proj}_{u_1}(v_2) \), \( u_2 = \frac{u_2'}{\|u_2'\|} \)
-3. \( u_k' = v_k - \sum_{j=1}^{k-1} \text{proj}_{u_j}(v_k) \), \( u_k = \frac{u_k'}{\|u_k'\|} \)
+1. $ u_1 = \dfrac{v_1}{\|v_1\|} $
+2. $ u_2' = v_2 - \mathrm{proj}_{u_1}(v_2), \quad u_2 = \dfrac{u_2'}{\|u_2'\|} $
+3. $ u_k' = v_k - \sum_{j=1}^{k-1} \mathrm{proj}_{u_j}(v_k), \quad u_k = \dfrac{u_k'}{\|u_k'\|} $
 
-\( \text{proj}_{u}(v) = \frac{\langle v, u \rangle}{\langle u, u \rangle} u \)
+$ \mathrm{proj}_u(v) = \dfrac{\langle v, u \rangle}{\langle u, u \rangle} u $
 
 ---- 
 
