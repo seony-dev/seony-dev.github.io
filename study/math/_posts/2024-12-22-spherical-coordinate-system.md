@@ -8,7 +8,7 @@ tags: [Programming, math, calculus]
 comments: true
 ---
 
-#### 📐구면좌표계(Spherical Coordinate System)란?
+### 📐구면좌표계(Spherical Coordinate System)란?
 >
 
 
