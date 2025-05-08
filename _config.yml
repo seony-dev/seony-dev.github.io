@@ -89,6 +89,11 @@ menu:
           submenu:
             - title:       Java
               url:         /java/
+        - title:       Frameworks
+          url:         /frameworks/
+          submenu:
+            - title:       Spring
+              url:         /spring/
         - title:       openai
           url:         /openai/
 
