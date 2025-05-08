@@ -31,13 +31,17 @@
             <input type="checkbox" id="folder-checkbox-{{count}}">
             <ul>
               {% for subnode in node.submenu %}
+                {% if subnode.submenu %}
+                <button class="spread-btn" onclick="javascript:spread({{count}})">
+                  <span id="spread-icon-{{count}}" class="material-icons">arrow_right</span>
+                </button>
+                {% endif %}
                 <li>
                   <a 
                     class="sidebar-nav-item {% if node.external %}external{% endif %}" 
                     href="{% include_cached smart-url url=subnode.url %}">
                     {{ subnode.title }}
                   </a>
-
                   {% if subnode.submenu %}
                     <ul>
                       {% for subsub in subnode.submenu %}
