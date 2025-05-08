@@ -81,6 +81,14 @@ menu:
         - title:       Unity
           url:         /unity/
 
+  - title:             Web Developments
+    url:               /web-developments/
+    submenu:
+        - title:       language
+          url:         /language/
+        - title:       openai
+          url:         /openai/
+
   - title:             About
     url:               /about/
 
