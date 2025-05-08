@@ -91,15 +91,15 @@ menu:
               url:         /java/
             - title:       Node.js
               url:         /node-js/
-        - title:       Framework
-          url:         /framework/
-          submenu:
-            - title:       Spring
-              url:         /spring/
-            - title:       React.js
-              url:         /react-js/
-            - title:       Vue.js
-              url:         /vue-js/
+        # - title:       Framework
+        #   url:         /framework/
+        #   submenu:
+        #     - title:       Spring
+        #       url:         /spring/
+        #     - title:       React.js
+        #       url:         /react-js/
+        #     - title:       Vue.js
+        #       url:         /vue-js/
         - title:       Open AI
           url:         /open-ai/
 
