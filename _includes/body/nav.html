@@ -36,13 +36,13 @@
                 </button>
                 {% endif %}
                 <li>
+                  <input type="checkbox" id="folder-checkbox-{{count}}">
                   <a 
                     class="sidebar-nav-item {% if node.external %}external{% endif %}" 
                     href="{% include_cached smart-url url=subnode.url %}">
                     {{ subnode.title }}
                   </a>
                   {% if subnode.submenu %}
-                  <input type="checkbox" id="folder-checkbox-{{count}}">
                     <ul>
                       {% for subsub in subnode.submenu %}
                         <li>
