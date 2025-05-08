@@ -32,8 +32,8 @@
                     {% for subsub in subnode.submenu %}
                       <li>
                         <a 
-							class="sidebar-nav-item {% if node.external %}external{% endif %}" 
-							href="{% include_cached smart-url url=subnode.url %}">{{ subsub.title }}</a>
+                          class="sidebar-nav-item {% if node.external %}external{% endif %}" 
+                          href="{% include_cached smart-url url=subsub.url %}">{{ subsub.title }}</a>
                       </li>
                     {% endfor%}
                   </ul>
