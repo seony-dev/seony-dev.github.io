@@ -28,7 +28,6 @@
 
         {% if node.submenu %}
           <div class="menu-wrapper">
-            <input type="checkbox" id="folder-checkbox-{{count}}">
             <ul>
               {% for subnode in node.submenu %}
                 {% if subnode.submenu %}
@@ -43,6 +42,7 @@
                     {{ subnode.title }}
                   </a>
                   {% if subnode.submenu %}
+                  <input type="checkbox" id="folder-checkbox-{{count}}">
                     <ul>
                       {% for subsub in subnode.submenu %}
                         <li>
