@@ -89,13 +89,19 @@ menu:
           submenu:
             - title:       Java
               url:         /java/
-        - title:       Frameworks
-          url:         /frameworks/
+            - title:       Node.js
+              url:         /node-js/
+        - title:       Framework
+          url:         /framework/
           submenu:
             - title:       Spring
               url:         /spring/
-        - title:       openai
-          url:         /openai/
+            - title:       React.js
+              url:         /react-js/
+            - title:       Vue.js
+              url:         /vue-js/
+        - title:       Open AI
+          url:         /open-ai/
 
   - title:             About
     url:               /about/

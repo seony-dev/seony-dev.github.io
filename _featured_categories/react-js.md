@@ -1,12 +1,12 @@
 ---
 layout: list
 type: category
-title: Open AI
-slug: openai
+title: React.js
+slug: react-js
 sidebar: true
-order: 3
+order: 4
 description: >
-  about Web Language
+  about React.js
 #grouped: true
 sitemap: false
 ---
