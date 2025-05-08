@@ -62,6 +62,8 @@ menu:
           url:         /design-patterns/
         - title:       OS
           url:         /os/
+        - title:       Database
+          url:         /database/
         - title:       C++
           url:         /cpp/
         - title:       C#
