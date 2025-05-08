@@ -84,8 +84,11 @@ menu:
   - title:             Web Developments
     url:               /web-developments/
     submenu:
-        - title:       language
+        - title:       Language
           url:         /language/
+          submenu:
+            - title:       Java
+              url:         /java/
         - title:       openai
           url:         /openai/
 
