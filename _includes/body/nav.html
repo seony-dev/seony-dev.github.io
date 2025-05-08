@@ -35,8 +35,8 @@
                   <span id="spread-icon-{{count}}" class="material-icons">arrow_right</span>
                 </button>
                 {% endif %}
+                <input type="checkbox" id="folder-checkbox-{{count}}">
                 <li>
-                  <input type="checkbox" id="folder-checkbox-{{count}}">
                   <a 
                     class="sidebar-nav-item {% if node.external %}external{% endif %}" 
                     href="{% include_cached smart-url url=subnode.url %}">
