@@ -7,6 +7,15 @@ categories: [web-developments, language, java]
 comments: true
 ---
 
+<p align="center">  
+  <img src="/assets/img/blog/java/java_logo.png" style="width: 832px; height: auto;" />  
+</p>  
+
+-----  
+
+<span style="color:darkgray; font-size:13px;">이미지 출처: https://icon-icons.com/ko/download/168609/PNG/512/ </span>  
+
+---
 ### ☕ 자바(Java)란?
 > 자바(Java)는 1995년 Sun Microsystems(현 Oracle)에 의해 개발된 **객체지향 프로그래밍 언어**로, 한 번 작성한 코드를 여러 플랫폼에서 실행할 수 있는 **"Write Once, Run Anywhere"** 철학으로 잘 알려져 있다. <br>
 웹 애플리케이션부터 서버 백엔드, 기업용 시스템에 이르기까지 폭넓은 웹 개발 환경에서 활용되고 있다.
@@ -77,11 +86,10 @@ Java는 오랜 시간 동안 엔터프라이즈(개인이 아닌, 조직에서 �
 초기 진입 장벽은 존재하지만, 일단 익숙해지면 대규모 시스템에서 뛰어난 유지보수성과 확장성을 제공하는 강력한 웹 개발 언어이다.
 
 -----
-<span style="color:darkgray">출처 : <br>
+<span style="color:darkgray">출처 : </span> <br>
 - [Oracle - Java 공식 문서](https://docs.oracle.com/en/java/)
 - [Spring 공식 홈페이지](https://spring.io/)
 - [Baeldung - Java & Spring 가이드](https://www.baeldung.com/)
 - [GeeksforGeeks - Java Tutorials](https://www.geeksforgeeks.org/java/)
 - [Velog - 자바 백엔드 개발자 로드맵 정리](https://velog.io/)
 - [Inflearn - 스프링 입문 강의](https://www.inflearn.com/course/spring_recommend)
-</span>
