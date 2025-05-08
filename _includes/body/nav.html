@@ -25,10 +25,11 @@
             {{ node.name | default:node.title }}
           </a>
         </div>
+
         {% if node.submenu %}
-        <input type="checkbox" id="folder-checkbox-{{count}}">
         <ul>
           <div class="menu-wrapper">
+            <input type="checkbox" id="folder-checkbox-{{count}}">
               {% for subnode in node.submenu %}
                 <li>
                   {% if subnode.submenu %}
