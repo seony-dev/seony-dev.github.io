@@ -12,7 +12,7 @@
       <li>
         <div class="menu-wrapper">
           {% if node.submenu %}
-            <button class="spread-btn" onclick="javascript:spread({{count}})">
+            <button class="spread-btn" onclick="spread({{count}})">
               <span id="spread-icon-{{count}}" class="material-icons">arrow_right</span>
             </button>
           {% endif %}
@@ -27,38 +27,48 @@
         </div>
 
         {% if node.submenu %}
-          <div class="menu-wrapper">
-            <input type="checkbox" id="folder-checkbox-{{count}}">
-            <ul>
-              {% for subnode in node.submenu %}
-                {% if subnode.submenu %}
-                <button class="spread-btn" onclick="javascript:spread({{count}})">
-                  <span id="spread-icon-{{count}}" class="material-icons">arrow_right</span>
-                </button>
-                {% endif %}
-                <li>
+          <!-- 펼침 토글을 위한 체크박스 -->
+          <input type="checkbox" id="folder-checkbox-{{count}}" hidden>
+
+          <!-- 서브 메뉴 -->
+          <ul>
+            {% assign subcount = 0 %}
+            {% for subnode in node.submenu %}
+              {% assign subcount = subcount | plus: 1 %}
+              <li>
+                <div class="menu-wrapper">
+                  {% if subnode.submenu %}
+                    <button class="spread-btn" onclick="spread('{{count}}-{{subcount}}')">
+                      <span id="spread-icon-{{count}}-{{subcount}}" class="material-icons">arrow_right</span>
+                    </button>
+                  {% endif %}
                   <a 
                     class="sidebar-nav-item {% if node.external %}external{% endif %}" 
                     href="{% include_cached smart-url url=subnode.url %}">
                     {{ subnode.title }}
                   </a>
-                  {% if subnode.submenu %}
-                    <ul>
-                      {% for subsub in subnode.submenu %}
-                        <li>
-                          <a 
-                            class="sidebar-nav-item {% if node.external %}external{% endif %}" 
-                            href="{% include_cached smart-url url=subsub.url %}">
-                            {{ subsub.title }}
-                          </a>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+                </div>
+
+                {% if subnode.submenu %}
+                  <!-- 토글 체크박스 -->
+                  <input type="checkbox" id="folder-checkbox-{{count}}-{{subcount}}" hidden>
+
+                  <!-- 서브 서브 메뉴 -->
+                  <ul>
+                    {% for subsub in subnode.submenu %}
+                      <li>
+                        <a 
+                          class="sidebar-nav-item {% if node.external %}external{% endif %}" 
+                          href="{% include_cached smart-url url=subsub.url %}">
+                          {{ subsub.title }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
         {% endif %}
       </li>
     {% endfor %}
