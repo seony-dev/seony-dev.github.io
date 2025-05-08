@@ -28,6 +28,7 @@
 
         {% if node.submenu %}
           <div class="menu-wrapper">
+            <input type="checkbox" id="folder-checkbox-{{count}}">
             <ul>
               {% for subnode in node.submenu %}
                 {% if subnode.submenu %}
@@ -35,7 +36,6 @@
                   <span id="spread-icon-{{count}}" class="material-icons">arrow_right</span>
                 </button>
                 {% endif %}
-                <input type="checkbox" id="folder-checkbox-{{count}}">
                 <li>
                   <a 
                     class="sidebar-nav-item {% if node.external %}external{% endif %}" 
