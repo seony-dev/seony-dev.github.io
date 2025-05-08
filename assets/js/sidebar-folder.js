@@ -8,13 +8,14 @@
 // }
 
 // 25.05.08 - Sub Menu 하위 추가로 인한 수정.
-function spread(count)
+function spread(id) 
 {
-    const checkbox = document.getElementById('folder-checkbox-' + count);
-    const icon = document.getElementById('spread-icon-' + count);
-
-    if(!checkbox || !icon) return;
-
+    const checkbox = document.getElementById('folder-checkbox-' + id);
+    const icon = document.getElementById('spread-icon-' + id);
+  
+    if (!checkbox || !icon) return;
+  
     checkbox.checked = !checkbox.checked;
-    icon.innerHTML = document.checked ? 'arrow_drop_down' : 'arrow_right';
-}
+    icon.innerHTML = checkbox.checked ? 'arrow_drop_down' : 'arrow_right';
+  }
+  
